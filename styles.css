@@ -51,8 +51,7 @@ img {
 .brand,
 .main-nav,
 .hero-actions,
-.filters,
-.source-list {
+.filters {
   display: flex;
   align-items: center;
 }
@@ -87,7 +86,7 @@ img {
 .main-nav a,
 .header-action,
 .card-link,
-.source-list a {
+.footer-links a {
   white-space: nowrap;
 }
 
@@ -244,7 +243,7 @@ p {
 .main-nav a:focus-visible,
 .header-action:focus-visible,
 .brand:focus-visible,
-.source-list a:focus-visible,
+.footer-links a:focus-visible,
 summary:focus-visible {
   outline: 2px solid var(--color-focus);
   outline-offset: 2px;
@@ -635,7 +634,7 @@ details p {
 
 .site-footer {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(16rem, 1.4fr) repeat(2, minmax(10rem, 0.6fr));
   gap: var(--space-lg);
   padding: var(--space-xl) clamp(var(--space-sm), 4vw, var(--space-xl));
   background: var(--color-ink);
@@ -646,11 +645,24 @@ details p {
   margin-bottom: var(--space-sm);
 }
 
-.source-list {
-  align-self: start;
-  gap: var(--space-sm);
-  flex-wrap: wrap;
-  justify-content: end;
+.footer-intro p {
+  max-width: 52ch;
+}
+
+.footer-links {
+  display: grid;
+  align-content: start;
+  justify-items: start;
+  gap: var(--space-xs);
+}
+
+.footer-links strong {
+  color: var(--color-paper-soft);
+}
+
+.footer-links a {
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .footer-note {
@@ -714,9 +726,6 @@ details p {
     font-weight: 400;
   }
 
-  .source-list {
-    justify-content: start;
-  }
 }
 
 @media (max-width: 38rem) {
