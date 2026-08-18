@@ -541,19 +541,37 @@ dd {
 }
 
 .faq-index {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-2xs) var(--space-md);
-  padding-block: var(--space-sm);
-  border-block: var(--rule-hair) solid var(--color-rule);
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: var(--space-2xs);
 }
 
 .faq-index a {
+  display: flex;
+  align-items: center;
+  min-height: 4.5rem;
+  padding: var(--space-sm);
+  border: var(--rule-hair) solid var(--color-rule);
   color: var(--color-accent);
+  background: var(--color-surface);
   font-weight: 800;
-  text-decoration-thickness: var(--rule-hair);
-  text-underline-offset: var(--space-3xs);
+  line-height: 1;
+  text-decoration: none;
   white-space: nowrap;
+}
+
+.faq-index a:hover {
+  background: var(--color-accent-soft);
+  border-color: var(--color-accent);
+}
+
+.faq-index a:focus-visible {
+  outline: 2px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.faq-index a:active {
+  background: var(--color-paper-soft);
 }
 
 .faq-group {
@@ -652,6 +670,10 @@ details p {
     grid-template-columns: 1fr;
   }
 
+  .faq-index {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .table-row {
     grid-template-columns: 1fr;
   }
@@ -689,6 +711,16 @@ details p {
   .method-grid,
   .faq-group {
     grid-template-columns: 1fr;
+  }
+
+  .faq-index {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .faq-index a {
+    min-height: 3.5rem;
+    padding: var(--space-xs);
+    font-size: var(--text-sm);
   }
 
   .center-card,
