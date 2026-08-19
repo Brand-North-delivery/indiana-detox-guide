@@ -8,7 +8,7 @@ The directory was last reviewed on August 19, 2026. Provider information can cha
 
 - [Indiana Detox Guide](https://brand-north-delivery.github.io/indiana-detox-guide/): The complete directory and educational guide.
 - [Entity map](https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.json): Canonical machine-readable map of the guide, provider profiles, physical locations, official websites, Google profiles, and Grove program relationships.
-- [HTML entity map](https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html): Human-readable provider, location, and source relationships.
+- [HTML entity map](https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html): Human-readable knowledge layer covering Indiana, guide-defined North/Central/South regions, drug and alcohol rehab terminology, detox, residential and outpatient care, dual diagnosis, substance topics, ASAM Fourth Edition levels of care, providers, locations, and sources.
 - [HTML sitemap](https://brand-north-delivery.github.io/indiana-detox-guide/sitemap.html): Complete navigable index of guide pages and discovery files.
 - [XML sitemap](https://brand-north-delivery.github.io/indiana-detox-guide/sitemap.xml): Canonical crawler discovery file referenced by robots.txt.
 - [Review method](https://brand-north-delivery.github.io/indiana-detox-guide/#method): The four practical dimensions used to compare public information.
@@ -26,6 +26,17 @@ The directory was last reviewed on August 19, 2026. Provider information can cha
 - [Avenues Recovery Center Indiana](https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/): Separate Fort Wayne, Indianapolis, and Clarksville location records.
 
 Google ratings and review counts on profile pages are dated snapshots reviewed August 19, 2026. They are not Indiana Detox Guide rankings or treatment-outcome measures. Use each live Google profile for current reviews.
+
+## Treatment knowledge graph
+
+- Drug rehab and alcohol rehab are umbrella terms for organized treatment and recovery services; they are not a single level of care.
+- Medical detox addresses intoxication and withdrawal risk and should not be treated as a complete rehabilitation plan by itself.
+- Residential treatment includes an overnight living setting; outpatient treatment does not. Clinical intensity and medical capability vary within both categories.
+- Dual diagnosis refers to coordinated or integrated care for substance-use needs and co-occurring mental-health conditions.
+- North, Central, and South Indiana are guide-defined browsing regions, not official Indiana administrative or service boundaries.
+- ASAM Fourth Edition levels are clinical placement and program-capability concepts, not guide ratings. The guide does not assign an ASAM level to a center without authoritative, location-specific evidence.
+
+ASAM educational summaries use the current Fourth Edition continuum: Level 1 outpatient, Level 2 intensive outpatient, Level 3 residential, and Level 4 inpatient, with decimal levels describing differences in intensity and capability.
 
 ## Featured provider
 

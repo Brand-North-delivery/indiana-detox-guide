@@ -132,10 +132,159 @@
       "telephone": "+1-930-203-1947"
     }
   ],
+  "knowledgeGraph": {
+    "geography": {
+      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#indiana",
+      "type": "State",
+      "name": "Indiana",
+      "description": "A U.S. state used as the geographic scope of this treatment directory.",
+      "containsGuideRegions": [
+        "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#north-indiana",
+        "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#central-indiana",
+        "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#south-indiana"
+      ],
+      "authoritativeTreatmentResource": "https://secure.in.gov/fssa/dmha/quality-assurance-quality-improvement/mental-health-and-addiction-providers/"
+    },
+    "regions": [
+      {
+        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#north-indiana",
+        "name": "North Indiana",
+        "classification": "Guide-defined navigation region",
+        "description": "The guide groups Fort Wayne, Huntington, and Peru in North Indiana for browsing. This is not an official Indiana service-region boundary.",
+        "containsLocations": [
+          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/the-grove-estate/#center",
+          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/#huntington",
+          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#fort-wayne"
+        ]
+      },
+      {
+        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#central-indiana",
+        "name": "Central Indiana",
+        "classification": "Guide-defined navigation region",
+        "description": "The guide groups Indianapolis locations in Central Indiana for browsing. This is not an official Indiana service-region boundary.",
+        "containsLocations": [
+          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/indiana-center-for-recovery/#center",
+          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/ethan-crossing/#center",
+          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/recovery-centers-of-america-indianapolis/#center",
+          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#indianapolis"
+        ]
+      },
+      {
+        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#south-indiana",
+        "name": "South Indiana",
+        "classification": "Guide-defined navigation region",
+        "description": "The guide groups Bloomington and Clarksville in South Indiana for browsing. This is not an official Indiana service-region boundary.",
+        "containsLocations": [
+          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/#bloomington",
+          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#clarksville"
+        ]
+      }
+    ],
+    "treatmentConcepts": [
+      {
+        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#substance-use-disorder",
+        "name": "Substance use disorder",
+        "alternateName": "SUD",
+        "definition": "A health condition involving a problematic pattern of substance use that causes clinically significant impairment or distress. Diagnosis belongs to qualified clinicians."
+      },
+      {
+        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#drug-rehab",
+        "name": "Drug rehabilitation",
+        "alternateName": "Drug rehab",
+        "definition": "An umbrella term for organized treatment and recovery services addressing problematic drug use; it may include assessment, withdrawal management, medications, counseling, residential or outpatient care, and continuing support."
+      },
+      {
+        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#alcohol-rehab",
+        "name": "Alcohol rehabilitation",
+        "alternateName": "Alcohol rehab",
+        "definition": "Organized treatment and recovery services for alcohol-related problems, potentially including medically supervised withdrawal management, medications, counseling, residential or outpatient care, and continuing support."
+      },
+      {
+        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#medical-detox",
+        "name": "Medical detoxification",
+        "alternateName": "Medical detox",
+        "definition": "Clinical evaluation, monitoring, and treatment of intoxication or withdrawal risk. Detoxification is a stabilization phase and is not the same as a complete rehabilitation plan."
+      },
+      {
+        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#residential-treatment",
+        "name": "Residential treatment",
+        "definition": "A structured treatment program in which a person lives at the program while receiving services. Residential intensity and medical capability vary by program."
+      },
+      {
+        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#outpatient-treatment",
+        "name": "Outpatient treatment",
+        "definition": "Treatment delivered through scheduled visits without an overnight stay; frequency and clinical intensity vary."
+      },
+      {
+        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#dual-diagnosis",
+        "name": "Co-occurring disorder treatment",
+        "alternateName": "Dual diagnosis treatment",
+        "definition": "Integrated or coordinated care for substance-use needs and co-occurring mental-health conditions."
+      },
+      {
+        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#medications-for-addiction-treatment",
+        "name": "Medications for addiction treatment",
+        "alternateName": "MAT",
+        "definition": "Use of approved medications as part of treatment for certain substance use disorders, commonly combined with clinical and recovery support according to individual need."
+      },
+      {
+        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#continuing-care",
+        "name": "Continuing care",
+        "alternateName": "Aftercare",
+        "definition": "Ongoing services and recovery supports after an initial treatment phase, which may include outpatient care, medications, peer support, recovery housing, or monitoring."
+      }
+    ],
+    "substanceTopics": [
+      {"id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#alcohol", "name": "Alcohol", "relationship": "Potential focus of withdrawal management and alcohol-use-disorder treatment"},
+      {"id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#opioids", "name": "Opioids", "relationship": "Potential focus of opioid withdrawal management and opioid-use-disorder treatment"},
+      {"id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#benzodiazepines", "name": "Benzodiazepines", "relationship": "Potential focus of medically supervised withdrawal management because abrupt discontinuation can be dangerous"},
+      {"id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#stimulants", "name": "Stimulants", "relationship": "Potential focus of substance-use treatment and psychiatric or medical assessment"},
+      {"id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#cannabis", "name": "Cannabis", "relationship": "Potential focus of substance-use assessment and treatment"},
+      {"id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#polysubstance-use", "name": "Polysubstance use", "relationship": "Use of more than one substance, which can change withdrawal risk and placement needs"}
+    ],
+    "asamCriteria": {
+      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#asam-levels",
+      "name": "The ASAM Criteria, Fourth Edition",
+      "definition": "A person-centered framework for multidimensional assessment, treatment planning, and matching patients to an appropriate level of addiction care.",
+      "source": "https://www.asam.org/asam-criteria/asam-criteria-4th-edition",
+      "notice": "These are educational summaries. An ASAM level is a clinical placement concept, not a guide rating. No listed center is assigned a level without location-specific authoritative evidence.",
+      "broadLevels": [
+        {"level": "1", "name": "Outpatient care", "sublevels": ["1.0", "1.5", "1.7"]},
+        {"level": "2", "name": "Intensive outpatient care", "sublevels": ["2.1", "2.5", "2.7"]},
+        {"level": "3", "name": "Residential care", "sublevels": ["3.1", "3.5", "3.7"]},
+        {"level": "4", "name": "Inpatient care", "sublevels": ["4", "4 Psychiatric"]}
+      ],
+      "levels": [
+        {"level": "1.0", "name": "Long-Term Remission Monitoring", "category": "Recovery monitoring"},
+        {"level": "1.5", "name": "Outpatient Therapy", "category": "Clinically managed outpatient care"},
+        {"level": "1.7", "name": "Medically Managed Outpatient", "category": "Medically managed care"},
+        {"level": "2.1", "name": "Intensive Outpatient", "category": "Clinically managed outpatient care"},
+        {"level": "2.5", "name": "High-Intensity Outpatient", "category": "Clinically managed outpatient care"},
+        {"level": "2.7", "name": "Medically Managed Intensive Outpatient", "category": "Medically managed care"},
+        {"level": "3.1", "name": "Clinically Managed Low-Intensity Residential", "category": "Clinically managed residential care"},
+        {"level": "3.5", "name": "Clinically Managed High-Intensity Residential", "category": "Clinically managed residential care"},
+        {"level": "3.7", "name": "Medically Managed Residential", "category": "Medically managed care"},
+        {"level": "4", "name": "Medically Managed Inpatient", "category": "Inpatient care"},
+        {"level": "4 Psychiatric", "name": "Medically Managed Inpatient Psychiatric", "category": "Inpatient psychiatric care"}
+      ],
+      "capabilityModifiers": [
+        {"code": "COE", "name": "Co-Occurring Enhanced", "definition": "Enhanced capability for co-occurring psychiatric and cognitive conditions at specified levels."},
+        {"code": "BIO", "name": "Biomedically Enhanced", "definition": "Enhanced biomedical capability at Level 3.7 for specified medical comorbidities."}
+      ]
+    },
+    "sources": [
+      {"name": "ASAM Criteria Fourth Edition", "url": "https://www.asam.org/asam-criteria/asam-criteria-4th-edition"},
+      {"name": "ASAM Criteria FAQ", "url": "https://www.asam.org/asam-criteria/criteria-faq"},
+      {"name": "SAMHSA treatment overview", "url": "https://www.samhsa.gov/find-support/learn-about-treatment"},
+      {"name": "Indiana DMHA provider information", "url": "https://secure.in.gov/fssa/dmha/quality-assurance-quality-improvement/mental-health-and-addiction-providers/"}
+    ]
+  },
   "provenance": {
     "guideProfiles": "Indiana Detox Guide editorial summaries",
     "napAndReviews": "Google Business Profile snapshots reviewed August 19, 2026",
     "programs": "Provider-published pages",
-    "notice": "Inclusion, ratings, and review counts do not represent guide rankings or treatment outcomes."
+    "conceptDefinitions": "Plain-language editorial summaries informed by ASAM, SAMHSA, and Indiana DMHA sources reviewed August 19, 2026",
+    "regionalTaxonomy": "North, Central, and South Indiana are guide-defined browsing regions and are not official Indiana administrative or service regions",
+    "notice": "Inclusion, ratings, review counts, and educational taxonomies do not represent guide rankings, clinical placement, diagnosis, or treatment outcomes."
   }
 }

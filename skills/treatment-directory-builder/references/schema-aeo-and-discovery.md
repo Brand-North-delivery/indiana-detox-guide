@@ -29,11 +29,13 @@ Answer named questions immediately; use consistent entities; make key paragraphs
 1. `robots.txt` allows intended crawling and provides the absolute XML `Sitemap:` URL. Optional comments may label HTML sitemap, entity map, and `llms.txt` without inventing directives.
 2. `sitemap.xml` lists canonical pages with accurate `lastmod`.
 3. `sitemap.html` visibly links every page and discovery file.
-4. `entitymap.html` explains guide -> profile -> location -> official identity relationships.
-5. `entitymap.json` mirrors stable IDs, relationships, provenance, and date.
+4. `entitymap.html` explains the complete subject graph: geography; clearly labeled guide-defined regions; treatment and substance definitions; levels-of-care taxonomy; guide -> profile -> physical location relationships; and official identity references.
+5. `entitymap.json` mirrors stable IDs, definitions, relationships, source URLs, provenance, and date. Do not assign a provider to a clinical level of care without authoritative, location-specific evidence.
 6. `llms.txt` summarizes scope, method, profiles, featured rationale, sources, citation, and safety.
 
 Homepage and every profile link to HTML sitemap and entity map. Both indexes cross-link, link all profiles, and link relevant machine files.
+
+For addiction-treatment guides, include plain-language concepts such as substance use disorder, drug rehab, alcohol rehab, medical detox, residential treatment, outpatient treatment, co-occurring care, medications for addiction treatment, continuing care, and in-scope substances. Include the current ASAM continuum from official ASAM sources, label it educational, and state that ASAM level is not a ranking. Treat geographic groupings as editorial navigation regions unless they exactly reproduce a cited government boundary.
 
 ```text
 User-agent: *

@@ -46,6 +46,8 @@ Use owned/licensed/permitted media. For a provider homepage screenshot, record U
 
 Use canonical guide-owned entity IDs consistently. Add homepage `WebSite`/`WebPage`/`ItemList`; profile `WebPage` plus one location entity per facility; collection schema on sitemap/entity pages. Use official and Google URLs as references. Do not add third-party rating schema by default.
 
+Make the entity map a subject knowledge layer, not merely a provider list. Define the geography, explicitly labeled editorial regions, treatment terms, substances, and the current official levels-of-care framework. Cite authoritative sources and never assign a clinical level to a provider without location-specific evidence.
+
 Write answers that lead with the direct response and preserve qualifications. Align title, H1, canonical, copy, and schema. The Grove-style featured entity may receive deeper program relationships, but all providers need accurate entity identity.
 
 ## 8. Discovery files and internal linking
