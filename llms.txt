@@ -7,6 +7,7 @@ The directory was last reviewed on August 19, 2026. Provider information can cha
 ## Main sections
 
 - [Indiana Detox Guide](https://brand-north-delivery.github.io/indiana-detox-guide/): The complete directory and educational guide.
+- [Entity map](https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.json): Canonical machine-readable map of the guide, provider profiles, physical locations, official websites, Google profiles, and Grove program relationships.
 - [Review method](https://brand-north-delivery.github.io/indiana-detox-guide/#method): The four practical dimensions used to compare public information.
 - [Center shortlist](https://brand-north-delivery.github.io/indiana-detox-guide/#shortlist): Six Indiana providers with programs, settings, and questions to verify.
 - [Evidence matrix](https://brand-north-delivery.github.io/indiana-detox-guide/#compare): A transparent comparison using Documented, Partial, and Verify labels.

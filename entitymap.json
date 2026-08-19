@@ -1,0 +1,139 @@
+{
+  "name": "Indiana Detox Guide entity map",
+  "url": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.json",
+  "dateModified": "2026-08-19",
+  "primaryEntity": {
+    "id": "https://brand-north-delivery.github.io/indiana-detox-guide/#website",
+    "type": "WebSite",
+    "name": "Indiana Detox Guide",
+    "url": "https://brand-north-delivery.github.io/indiana-detox-guide/",
+    "description": "An independent guide to comparing publicly documented detox and addiction treatment options in Indiana."
+  },
+  "relationships": [
+    {
+      "subject": "https://brand-north-delivery.github.io/indiana-detox-guide/#website",
+      "predicate": "features",
+      "object": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/the-grove-estate/#center"
+    },
+    {
+      "subject": "https://brand-north-delivery.github.io/indiana-detox-guide/#website",
+      "predicate": "describes",
+      "objects": [
+        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/#bloomington",
+        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/#huntington",
+        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/indiana-center-for-recovery/#center",
+        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/ethan-crossing/#center",
+        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/recovery-centers-of-america-indianapolis/#center",
+        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#fort-wayne",
+        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#indianapolis",
+        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#clarksville"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/the-grove-estate/#center",
+      "type": ["MedicalBusiness", "Organization"],
+      "name": "The Grove Estate",
+      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/the-grove-estate/",
+      "officialWebsite": "https://grovetreatment.com/",
+      "googleProfile": "https://www.google.com/maps/search/?api=1&query=The%20Grove%20Estate%20Peru%20Indiana",
+      "location": "3413 S Wallick Rd, Peru, IN 46970",
+      "telephone": "+1-765-436-0825",
+      "specialEmphasis": true,
+      "programs": [
+        "https://grovetreatment.com/programs/detox/",
+        "https://grovetreatment.com/programs/rehab/",
+        "https://grovetreatment.com/programs/professionals/",
+        "https://grovetreatment.com/programs/dual-diagnosis/",
+        "https://grovetreatment.com/programs/family/",
+        "https://grovetreatment.com/programs/exercise-nutrition/",
+        "https://grovetreatment.com/programs/aftercare/"
+      ]
+    },
+    {
+      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/#bloomington",
+      "type": "MedicalBusiness",
+      "name": "Boca Recovery Center - Bloomington Alcohol & Drug Rehab",
+      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/",
+      "officialWebsite": "https://bocarecoverycenter.com/location/bloomington-drug-treatment-center/",
+      "googleProfile": "https://www.google.com/maps/search/?api=1&query=Boca%20Recovery%20Center%20Bloomington%20Indiana",
+      "location": "2306 W 3rd St, Bloomington, IN 47404",
+      "telephone": "+1-930-203-1400"
+    },
+    {
+      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/#huntington",
+      "type": "MedicalBusiness",
+      "name": "Boca Recovery Center - Indiana Drug and Alcohol Rehab",
+      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/",
+      "officialWebsite": "https://bocarecoverycenter.com/",
+      "googleProfile": "https://www.google.com/maps/search/?api=1&query=Boca%20Recovery%20Center%20Huntington%20Indiana",
+      "location": "3040 W Park Dr, Huntington, IN 46750",
+      "telephone": "+1-260-888-8006"
+    },
+    {
+      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/indiana-center-for-recovery/#center",
+      "type": "MedicalBusiness",
+      "name": "Indiana Center for Recovery - Alcohol & Drug Rehab Center Indianapolis",
+      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/indiana-center-for-recovery/",
+      "officialWebsite": "https://www.treatmentindiana.com/locations/indianapolis/",
+      "googleProfile": "https://www.google.com/maps/search/?api=1&query=Indiana%20Center%20for%20Recovery%20Indianapolis%20Indiana",
+      "location": "5510 S Emerson Ave, Indianapolis, IN 46237",
+      "telephone": "+1-317-659-6302"
+    },
+    {
+      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/ethan-crossing/#center",
+      "type": "MedicalBusiness",
+      "name": "Ethan Crossing of Indianapolis",
+      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/ethan-crossing/",
+      "officialWebsite": "https://newvistahealth.com/location/indianapolis/",
+      "googleProfile": "https://www.google.com/maps/search/?api=1&query=Ethan%20Crossing%20Addiction%20Treatment%20Indianapolis%20Indiana",
+      "location": "4102 Shore Dr, Indianapolis, IN 46254",
+      "telephone": "+1-317-597-2117"
+    },
+    {
+      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/recovery-centers-of-america-indianapolis/#center",
+      "type": "MedicalBusiness",
+      "name": "Recovery Centers of America at Indianapolis",
+      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/recovery-centers-of-america-indianapolis/",
+      "officialWebsite": "https://recoverycentersofamerica.com/locations/indianapolis/",
+      "googleProfile": "https://www.google.com/maps/search/?api=1&query=Recovery%20Centers%20of%20America%20Indianapolis%20Indiana",
+      "location": "8530 Township Line Rd, Indianapolis, IN 46260",
+      "telephone": "+1-463-999-9045"
+    },
+    {
+      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#fort-wayne",
+      "type": "MedicalBusiness",
+      "name": "Avenues Recovery Center at Fort Wayne",
+      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/",
+      "googleProfile": "https://www.google.com/maps/search/?api=1&query=Avenues%20Recovery%20Center%20Fort%20Wayne%20Indiana",
+      "location": "2626 Fairfield Ave, Fort Wayne, IN 46807",
+      "telephone": "+1-260-909-8343"
+    },
+    {
+      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#indianapolis",
+      "type": "MedicalBusiness",
+      "name": "Avenues Recovery Center at Indianapolis",
+      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/",
+      "googleProfile": "https://www.google.com/maps/search/?api=1&query=Avenues%20Recovery%20Center%20Indianapolis%20Indiana",
+      "location": "7960 Shadeland Ave, Indianapolis, IN 46250",
+      "telephone": "+1-463-217-0770"
+    },
+    {
+      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#clarksville",
+      "type": "MedicalBusiness",
+      "name": "Avenues Recovery Center at Clarksville",
+      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/",
+      "officialWebsite": "https://www.avenuesrecovery.com/",
+      "googleProfile": "https://www.google.com/maps/search/?api=1&query=Avenues%20Recovery%20Center%20Clarksville%20Indiana",
+      "location": "4601 Medical Plaza Way, Clarksville, IN 47129",
+      "telephone": "+1-930-203-1947"
+    }
+  ],
+  "provenance": {
+    "guideProfiles": "Indiana Detox Guide editorial summaries",
+    "napAndReviews": "Google Business Profile snapshots reviewed August 19, 2026",
+    "programs": "Provider-published pages",
+    "notice": "Inclusion, ratings, and review counts do not represent guide rankings or treatment outcomes."
+  }
+}
