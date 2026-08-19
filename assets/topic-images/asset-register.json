@@ -1,0 +1,63 @@
+{
+  "registerVersion": "1.0",
+  "reviewed": "2026-08-19",
+  "metadataPolicy": "No camera EXIF, GPS, person, provider, or location claims were added. Provenance and transformations are recorded here rather than fabricated in image metadata.",
+  "assets": [
+    {
+      "path": "assets/the-grove-estate-homepage.png",
+      "sha256": "bb58507d5a8e56b7a763cb2ad682d205e53e40344381fcef6ee280c9c7413df4",
+      "dimensions": "1250x600",
+      "source": "https://grovetreatment.com/",
+      "rightsBasis": "Provider public-homepage screenshot used for identification and editorial commentary",
+      "acquired": "2026-08-19",
+      "capture": "Visible provider homepage; browser chrome omitted; 1250x600 output",
+      "transformations": "Screenshot capture and project rename only",
+      "alt": "Screenshot of The Grove Estate homepage showing the treatment campus building and landscaped grounds.",
+      "caption": "Screenshot of The Grove Estate's public homepage, captured August 19, 2026. Appearance and page content may change."
+    },
+    {
+      "path": "assets/topic-images/treatment-consultation-room.png",
+      "sha256": "d1c4796af37189ff88b58d1668903460760be348ea89fb31c7e301bce2da0c6e",
+      "dimensions": "1536x1024",
+      "source": "OpenAI built-in image generation",
+      "rightsBasis": "Original image generated for and owned for use by Indiana Detox Guide",
+      "acquired": "2026-08-19",
+      "transformations": "None after generation; renamed on project import",
+      "alt": "Two green chairs and a wood table in an empty consultation room with trees visible through a window.",
+      "caption": "Guide-created editorial image of a consultation setting; it does not depict a specific Indiana facility."
+    },
+    {
+      "path": "assets/topic-images/substance-treatment-paths.png",
+      "sha256": "51ee8637928fcc93c0a2dd0b26e269cc0061afed1584ced51eec6df979dba6be",
+      "dimensions": "1536x1024",
+      "source": "OpenAI built-in image generation",
+      "rightsBasis": "Original image generated for and owned for use by Indiana Detox Guide",
+      "acquired": "2026-08-19",
+      "transformations": "None after generation; renamed on project import",
+      "alt": "An open blank notebook beside wooden markers arranged as branching paths on a green cloth.",
+      "caption": "Guide-created editorial image illustrating treatment decision paths; it does not depict a clinical service or facility."
+    },
+    {
+      "path": "assets/topic-images/rehab-admission-planning.png",
+      "sha256": "b74f93b050623c3e8e577acea3ec1e7ef6e93860de7489c9214f96c148f8ea34",
+      "dimensions": "1536x1024",
+      "source": "OpenAI built-in image generation",
+      "rightsBasis": "Original image generated for and owned for use by Indiana Detox Guide",
+      "acquired": "2026-08-19",
+      "transformations": "None after generation; renamed on project import",
+      "alt": "A canvas overnight bag, folded clothes, plain folder, blank identification card, and phone arranged on a bench.",
+      "caption": "Guide-created editorial image illustrating admission preparation; facility packing rules vary."
+    },
+    {
+      "path": "assets/topic-images/family-recovery-conversation.png",
+      "sha256": "81d817906c0a33cab24c4b2508198899ed2308be4c30e0b99f7f8b101b239d45",
+      "dimensions": "1536x1024",
+      "source": "OpenAI built-in image generation",
+      "rightsBasis": "Original image generated for and owned for use by Indiana Detox Guide",
+      "acquired": "2026-08-19",
+      "transformations": "None after generation; renamed on project import",
+      "alt": "Two empty chairs and two mugs arranged for a conversation beside a window overlooking a garden.",
+      "caption": "Guide-created editorial image illustrating a supportive conversation; it does not depict a specific person or facility."
+    }
+  ]
+}

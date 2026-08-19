@@ -1,6 +1,11 @@
 .topic-hero { padding: var(--space-3xl) clamp(var(--space-sm), 4vw, var(--space-xl)) var(--space-2xl); border-bottom: var(--rule-hair) solid var(--color-rule); }
 .topic-hero-inner, .topic-section { width: min(100%, 72rem); margin-inline: auto; }
 .topic-hero h1 { max-width: 14ch; }
+.topic-hero-grid { display: grid; grid-template-columns: minmax(0, .9fr) minmax(22rem, 1.1fr); gap: var(--space-xl); align-items: center; }
+.topic-hero-copy { min-width: 0; }
+.topic-hero-figure { margin: 0; }
+.topic-hero-figure img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; border-radius: var(--radius-md); }
+.topic-hero-figure figcaption { margin-top: var(--space-xs); color: var(--color-muted); font-size: var(--text-xs); line-height: 1.5; }
 .topic-lede { max-width: 62ch; font-size: var(--text-lg); }
 .topic-meta { display: flex; gap: var(--space-sm); flex-wrap: wrap; color: var(--color-muted); font-size: var(--text-sm); }
 .topic-section { padding: var(--space-2xl) clamp(var(--space-sm), 4vw, var(--space-xl)); }
@@ -21,4 +26,4 @@
 .topic-faq details p { margin: 0 0 var(--space-lg); }
 .topic-notice { background: var(--color-ink); color: var(--color-paper); }
 .topic-notice .source-note { color: var(--color-paper); }
-@media (max-width: 48rem) { .topic-layout { grid-template-columns: 1fr; } .topic-aside { padding: var(--space-md); } }
+@media (max-width: 48rem) { .topic-hero-grid, .topic-layout { grid-template-columns: 1fr; } .topic-aside { padding: var(--space-md); } }

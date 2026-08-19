@@ -19,3 +19,6 @@
 .theme-list li + li { margin-top: var(--space-xs); }
 .verify-list { display: grid; gap: var(--space-sm); padding-left: 1.2rem; max-width: 64rem; }
 @media (max-width: 42rem) { .profile-hero { padding-top: var(--space-2xl); } .location-card, .review-panel { padding: var(--space-md); } }
+.profile-image { width: min(calc(100% - 2 * clamp(var(--space-sm), 4vw, var(--space-xl))), 72rem); margin: var(--space-xl) auto 0; }
+.profile-image img { display: block; width: 100%; height: auto; max-height: 38rem; aspect-ratio: 3 / 2; object-fit: cover; object-position: top; border-radius: var(--radius-md); }
+.profile-image figcaption { margin-top: var(--space-xs); color: var(--color-muted); font-size: var(--text-xs); line-height: 1.5; }

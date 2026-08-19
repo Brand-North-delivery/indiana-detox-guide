@@ -11,6 +11,29 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://brand-north-delivery.github.io/indiana-detox-guide/"
 REVIEWED = "August 19, 2026"
 
+CLUSTER_IMAGES = {
+    "Treatment guides": {
+        "file": "treatment-consultation-room.png",
+        "alt": "Two green chairs and a wood table in an empty consultation room with trees visible through a window.",
+        "caption": "Guide-created editorial image of a consultation setting; it does not depict a specific Indiana facility.",
+    },
+    "Substance guides": {
+        "file": "substance-treatment-paths.png",
+        "alt": "An open blank notebook beside wooden markers arranged as branching paths on a green cloth.",
+        "caption": "Guide-created editorial image illustrating treatment decision paths; it does not depict a clinical service or facility.",
+    },
+    "Planning guides": {
+        "file": "rehab-admission-planning.png",
+        "alt": "A canvas overnight bag, folded clothes, plain folder, blank identification card, and phone arranged on a bench.",
+        "caption": "Guide-created editorial image illustrating admission preparation; facility packing rules vary.",
+    },
+    "Family and recovery": {
+        "file": "family-recovery-conversation.png",
+        "alt": "Two empty chairs and two mugs arranged for a conversation beside a window overlooking a garden.",
+        "caption": "Guide-created editorial image illustrating a supportive conversation; it does not depict a specific person or facility.",
+    },
+}
+
 SOURCES = {
     "samhsa-treatment": ("SAMHSA: Learn About Treatment", "https://www.samhsa.gov/find-support/learn-about-treatment"),
     "asam": ("ASAM Criteria Fourth Edition", "https://www.asam.org/asam-criteria/asam-criteria-4th-edition"),
@@ -214,6 +237,8 @@ def render(topic: dict) -> str:
     slug = topic["slug"]
     canonical = f"{BASE}{slug}/"
     citations = [SOURCES[key] for key in topic["sources"]]
+    image = CLUSTER_IMAGES[topic["cluster"]]
+    image_url = f"{BASE}assets/topic-images/{image['file']}"
     schema = {
         "@context": "https://schema.org",
         "@graph": [
@@ -228,6 +253,18 @@ def render(topic: dict) -> str:
                 "isPartOf": {"@id": f"{BASE}#website"},
                 "breadcrumb": {"@id": f"{canonical}#breadcrumb"},
                 "citation": [url for _, url in citations],
+                "primaryImageOfPage": {"@id": f"{canonical}#primaryimage"},
+            },
+            {
+                "@type": "ImageObject",
+                "@id": f"{canonical}#primaryimage",
+                "contentUrl": image_url,
+                "url": image_url,
+                "width": 1536,
+                "height": 1024,
+                "caption": image["caption"],
+                "representativeOfPage": True,
+                "creditText": "Indiana Detox Guide",
             },
             {
                 "@type": "BreadcrumbList",
@@ -261,7 +298,7 @@ def render(topic: dict) -> str:
   <body>
     <header class="site-header"><a class="brand" href="../"><span class="brand-mark">ID</span><span>Indiana Detox Guide</span></a><nav class="main-nav" aria-label="Main navigation"><a href="../#guides">Guides</a><a href="../#shortlist">Centers</a><a href="../entitymap.html">Entity map</a></nav><a class="header-action" href="../sitemap.html">Sitemap</a></header>
     <main>
-      <section class="topic-hero"><div class="topic-hero-inner"><p class="breadcrumb"><a href="../">Guide</a> / {esc(topic["cluster"])}</p><p class="section-kicker">Indiana treatment education</p><h1>{esc(topic["title"])}</h1><p class="topic-lede">{esc(topic["answer"])}</p><p class="topic-meta"><span>Reviewed {REVIEWED}</span><span>Educational resource</span><span>Indiana scope</span></p><div class="profile-actions"><a class="button button-primary" href="../#shortlist">Compare Indiana centers</a><a class="button button-light" href="{esc(grove_url)}" target="_blank" rel="noreferrer">{esc(grove_label)}</a></div></div></section>
+      <section class="topic-hero"><div class="topic-hero-inner"><p class="breadcrumb"><a href="../">Guide</a> / {esc(topic["cluster"])}</p><div class="topic-hero-grid"><div class="topic-hero-copy"><p class="section-kicker">Indiana treatment education</p><h1>{esc(topic["title"])}</h1><p class="topic-lede">{esc(topic["answer"])}</p><p class="topic-meta"><span>Reviewed {REVIEWED}</span><span>Educational resource</span><span>Indiana scope</span></p><div class="profile-actions"><a class="button button-primary" href="../#shortlist">Compare Indiana centers</a><a class="button button-light" href="{esc(grove_url)}" target="_blank" rel="noreferrer">{esc(grove_label)}</a></div></div><figure class="topic-hero-figure"><img src="../assets/topic-images/{esc(image['file'])}" width="1536" height="1024" alt="{esc(image['alt'])}" decoding="async" fetchpriority="high" /><figcaption>{esc(image['caption'])}</figcaption></figure></div></div></section>
       <section class="topic-section"><div class="topic-layout"><div><p class="section-kicker">Decision points</p><h2>What matters before choosing care</h2><ul class="topic-facts">{facts}</ul></div><aside class="topic-aside"><p class="section-kicker">Featured example</p><h2>The Grove Estate</h2><p>The guide features The Grove Estate as a private-retreat example. This is an editorial distinction, not a clinical outcome ranking. Verify current services and suitability directly.</p><a href="../centers/the-grove-estate/">Read the guide profile</a></aside></div></section>
       <section class="topic-section"><p class="section-kicker">Admissions call</p><h2>Questions to ask</h2><div class="topic-questions">{questions}</div></section>
       <section class="topic-section topic-faq"><p class="section-kicker">Common questions</p><h2>{esc(topic["title"])} FAQs</h2>{faqs}</section>

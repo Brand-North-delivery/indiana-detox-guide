@@ -761,6 +761,15 @@ details p {
     width: 100%;
   }
 
+  .button {
+    min-height: 2.75rem;
+    height: auto;
+    padding-block: var(--space-xs);
+    line-height: 1.25;
+    text-align: center;
+    white-space: normal;
+  }
+
   .urgent-note {
     position: static;
     margin-top: var(--space-lg);
