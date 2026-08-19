@@ -28,6 +28,12 @@ IMAGES = {
     }
 }
 
+GROVE_VIDEO = {
+    "id": "TqCBJeIBdew",
+    "name": "Luxury Drug & Alcohol Rehab in Indiana at The Grove Estate",
+    "description": "A provider-published video presenting The Grove Estate treatment campus in Indiana.",
+}
+
 
 def add_image(path: Path) -> None:
     slug = path.parent.name
@@ -61,6 +67,20 @@ def add_image(path: Path) -> None:
         "creditText": "Indiana Detox Guide" if slug != "the-grove-estate" else "The Grove Estate website screenshot",
         "representativeOfPage": True,
     })
+    if slug == "the-grove-estate":
+        video_id = f"{canonical}#video"
+        graph[:] = [node for node in graph if node.get("@id") != video_id]
+        graph.append({
+            "@type": "VideoObject",
+            "@id": video_id,
+            "name": GROVE_VIDEO["name"],
+            "description": GROVE_VIDEO["description"],
+            "thumbnailUrl": f"https://i.ytimg.com/vi/{GROVE_VIDEO['id']}/hqdefault.jpg",
+            "contentUrl": f"https://www.youtube.com/watch?v={GROVE_VIDEO['id']}",
+            "embedUrl": f"https://www.youtube.com/embed/{GROVE_VIDEO['id']}",
+            "publisher": {"@id": f"{canonical}#center"},
+            "isPartOf": {"@id": f"{canonical}#page"},
+        })
     html = html[:schema_match.start(1)] + json.dumps(schema, separators=(",", ":")) + html[schema_match.end(1):]
 
     figure = (
@@ -73,6 +93,22 @@ def add_image(path: Path) -> None:
         html = existing_figure.sub(figure, html, count=1)
     else:
         html = html.replace('</section><section class="profile-section">', f'</section>{figure}<section class="profile-section">', 1)
+    if slug == "the-grove-estate":
+        video = (
+            '<section class="profile-section profile-video"><p class="section-kicker">Provider video</p>'
+            '<h2>See The Grove Estate campus</h2><div class="video-frame">'
+            f'<iframe src="https://www.youtube.com/embed/{GROVE_VIDEO["id"]}?si=9ngDG3IUIEtEVri7" '
+            f'title="{GROVE_VIDEO["name"].replace("&", "&amp;")}" '
+            'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" '
+            'referrerpolicy="strict-origin-when-cross-origin" loading="lazy" allowfullscreen></iframe></div>'
+            '<p class="source-note">Published by The Grove Estate on YouTube. Provider-produced video is promotional material; '
+            'confirm current programs, staffing, amenities, and admission suitability directly.</p></section>'
+        )
+        existing_video = re.compile(r'<section class="profile-section profile-video">.*?</section>', re.DOTALL)
+        if existing_video.search(html):
+            html = existing_video.sub(video, html, count=1)
+        else:
+            html = html.replace('</figure><section class="profile-section">', f'</figure>{video}<section class="profile-section">', 1)
     path.write_text(html, encoding="utf-8", newline="\n")
 
 
