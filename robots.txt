@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
+# Canonical crawler discovery
 Sitemap: https://brand-north-delivery.github.io/indiana-detox-guide/sitemap.xml
+
+# Human and entity discovery
+# HTML-Sitemap: https://brand-north-delivery.github.io/indiana-detox-guide/sitemap.html
+# Entity-Map: https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html
+# LLMs: https://brand-north-delivery.github.io/indiana-detox-guide/llms.txt

@@ -1,6 +1,8 @@
 {
   "name": "Indiana Detox Guide entity map",
   "url": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.json",
+  "humanReadableUrl": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html",
+  "sitemapUrl": "https://brand-north-delivery.github.io/indiana-detox-guide/sitemap.html",
   "dateModified": "2026-08-19",
   "primaryEntity": {
     "id": "https://brand-north-delivery.github.io/indiana-detox-guide/#website",
