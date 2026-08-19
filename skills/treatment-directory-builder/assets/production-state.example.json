@@ -1,0 +1,33 @@
+{
+  "projectName": "Example Treatment Guide",
+  "updatedAt": "2026-08-19T00:00:00Z",
+  "currentPhase": "brief-locked",
+  "phases": {
+    "brief-locked": {"status": "passed", "owner": "editor", "evidence": ["project-brief.json"], "blockers": []},
+    "evidence-ready": {"status": "pending", "owner": "research", "evidence": [], "blockers": []},
+    "architecture-ready": {"status": "pending", "owner": "editorial-engineering", "evidence": [], "blockers": []},
+    "build-complete": {"status": "pending", "owner": "engineering", "evidence": [], "blockers": []},
+    "qa-passed": {"status": "pending", "owner": "qa", "evidence": [], "blockers": []},
+    "live-verified": {"status": "pending", "owner": "release", "evidence": [], "blockers": []},
+    "handoff-complete": {"status": "pending", "owner": "project-owner", "evidence": [], "blockers": []}
+  },
+  "metrics": {
+    "candidateProviders": 0,
+    "publishedProviders": 0,
+    "physicalLocations": 0,
+    "topicPages": 0,
+    "substantivePagesWithImages": 0,
+    "brokenInternalLinks": null,
+    "releaseBlockers": 0
+  },
+  "unresolvedDecisions": [],
+  "knownLimitations": [],
+  "nextActions": ["Complete provider evidence register"],
+  "release": {
+    "commit": null,
+    "deployId": null,
+    "productionUrl": null,
+    "verifiedAt": null,
+    "nextReviewDate": null
+  }
+}

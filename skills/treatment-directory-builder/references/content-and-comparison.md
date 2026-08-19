@@ -11,6 +11,8 @@
 7. Center profiles
 8. Source/discovery pages and footer
 
+Before drafting pages, create a URL inventory with primary intent, audience stage, parent hub, required evidence, media assignment, schema type, and planned inbound/outbound links. Merge or differentiate overlapping intents before writing to prevent thin or competing pages.
+
 ## Featured editor's choice
 
 The feature is an editorial lens, not superior outcomes.
@@ -33,11 +35,12 @@ Include breadcrumb/geography, exact title, editorial summary, dated GBP snapshot
 
 ## FAQs and AEO copy
 
-Build clusters around actual decisions: admissions, detox, dual diagnosis, alcohol, opioids, benzodiazepines, cost, family, private/professional care, aftercare, state verification, and provider questions. Ten-question groups are useful only when each question has distinct intent.
+Derive clusters from actual decisions, provider-verification needs, topical gaps, and the priority areas established during intake: admissions, detox, dual diagnosis, alcohol, opioids, benzodiazepines, cost, family, private/professional care, aftercare, state verification, and provider questions. Ten-question groups are useful only when each question has distinct intent; do not generate a fixed count merely to match another site.
 
 - Answer directly in the first sentence, then qualify.
 - Define terms plainly and provide action-oriented questions.
 - Avoid individualized advice and absolute claims.
 - Keep visible answers aligned with structured data.
+- Link each answer to the most useful next page when a natural next step exists, without repeating the same paragraph under different questions.
 
 Write calmly, specifically, and without stigma. Amenities never substitute for clinical capability.

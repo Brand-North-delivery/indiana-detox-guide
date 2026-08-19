@@ -1,4 +1,4 @@
 interface:
   display_name: "Treatment Directory Builder"
-  short_description: "Build sourced, entity-rich treatment center directories"
-  default_prompt: "Create or expand a treatment center directory using the complete research, content, schema, media, QA, and deployment workflow."
+  short_description: "Guide a treatment directory from intake through live QA"
+  default_prompt: "Start or continue a treatment directory project. Interview me for unresolved editorial, geographic, asset, provider, domain, and maintenance decisions; maintain the project brief and production state; then research, build, test, deploy, and iterate until every release gate passes."

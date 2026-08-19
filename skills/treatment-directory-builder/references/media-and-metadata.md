@@ -24,6 +24,10 @@ Pattern: `Screenshot of [provider] homepage showing [specific visible subject] i
 
 Use descriptive lowercase filenames, responsive formats/sizes, intrinsic dimensions, and visual-quality checks. Prefer AVIF/WebP for photos and PNG when screenshot text needs lossless rendering.
 
+Every substantive homepage, profile, geographic page, and topic page needs purposeful visual media. Reuse a guide-owned cluster image only when the caption makes clear that it is editorial and does not depict a listed provider. Utility files such as token verification HTML, machine maps, and XML are exempt.
+
+For embedded video, use the provider's official embed or an owned/authorized source. Use a descriptive iframe title, responsive aspect ratio, lazy loading below the fold, source disclosure, and `VideoObject` schema that matches the visible video. Describe provider-produced video as promotional material rather than independent verification.
+
 ## EXIF, IPTC, and XMP
 
 Metadata must be factual. Never invent camera, GPS, authorship, copyright, or dates.

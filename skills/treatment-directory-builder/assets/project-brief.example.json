@@ -1,0 +1,74 @@
+{
+  "project": {
+    "name": "Example Treatment Guide",
+    "mode": "new-build",
+    "canonicalBaseUrl": "https://example.com/",
+    "publisher": "Publishing organization",
+    "accountableEditor": "Editor name or role",
+    "repositoryOwner": "GitHub organization",
+    "deploymentOwner": "Hosting team or account",
+    "launchApprover": "Person or role",
+    "targetLaunchDate": "2026-10-01"
+  },
+  "audience": {
+    "primary": "Adults and families comparing treatment",
+    "geography": "State or region",
+    "priorityAreas": ["Primary city", "Secondary region"],
+    "treatmentScope": ["Medical detox", "Residential treatment"],
+    "populations": ["Adults"],
+    "exclusions": ["Adolescent-only programs"]
+  },
+  "editorial": {
+    "providerTargetCount": 8,
+    "inclusionCriteria": ["In-scope physical location", "Documented relevant service"],
+    "exclusionCriteria": ["Unable to verify location identity"],
+    "editorsChoiceExactName": "Example Center",
+    "editorsChoiceRationale": "Declared fit for a documented use case, not overall clinical quality.",
+    "commercialRelationship": "None",
+    "comparisonDimensions": ["Clinical scope", "Medical support", "Setting", "Continuing care"],
+    "reviewPolicy": "Dated Google snapshot with paraphrased balanced themes"
+  },
+  "topicalMap": {
+    "priorityClusters": ["Treatment types", "Substances", "Cost and insurance", "Family support"],
+    "priorityQuestions": ["What needs an immediate medical assessment?"],
+    "regionalModel": "Editorial regions must be labeled as guide-defined"
+  },
+  "brandAndMedia": {
+    "brandAssetsAvailable": false,
+    "providerAssetsAvailable": false,
+    "referenceSites": [],
+    "missingMediaPolicy": "Generate neutral guide-owned editorial imagery and document provenance",
+    "assetOwner": "Editor or designer",
+    "accessibilityTarget": "WCAG 2.2 AA"
+  },
+  "conversionAndPrivacy": {
+    "leadFormEnabled": false,
+    "phoneOwnership": "Provider numbers link directly to providers",
+    "analytics": "None until approved",
+    "consentRequirements": "Record applicable requirements",
+    "privacyReviewOwner": "Person or role"
+  },
+  "technical": {
+    "stack": "Static HTML/CSS/JS",
+    "hosting": "Netlify",
+    "domainDnsOwner": "Person or account",
+    "searchConsoleOwner": "Person or account",
+    "verificationFiles": [],
+    "productionBranch": "main"
+  },
+  "maintenance": {
+    "correctionOwner": "Editor or team",
+    "weeklyOwner": "Engineering",
+    "monthlyOwner": "Research",
+    "quarterlyOwner": "Editorial",
+    "nextReviewDate": "2026-11-01"
+  },
+  "definitionOfDone": [
+    "All production-state phases passed",
+    "Directory and workflow validators pass",
+    "Live canonical-domain and mobile/desktop checks pass",
+    "Handoff packet and maintenance owners recorded"
+  ],
+  "delegatedDecisions": [],
+  "openQuestions": []
+}

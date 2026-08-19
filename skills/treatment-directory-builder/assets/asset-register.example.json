@@ -1,0 +1,21 @@
+{
+  "reviewedAt": "2026-08-19",
+  "assets": [
+    {
+      "path": "assets/example-center-homepage.png",
+      "publicUrl": "https://example.com/assets/example-center-homepage.png",
+      "sha256": "replace-with-real-sha256",
+      "sourceUrl": "https://provider.example/",
+      "owner": "Provider or publisher",
+      "rightsBasis": "Documented permitted editorial screenshot use",
+      "acquiredAt": "2026-08-19",
+      "dimensions": "1250x600",
+      "bytes": 0,
+      "transformations": "Capture and descriptive rename",
+      "alt": "Screenshot of Example Center homepage showing the facility exterior.",
+      "caption": "Example Center homepage screenshot, captured August 19, 2026.",
+      "editor": "Editor name or role",
+      "nextReviewDate": "2026-11-19"
+    }
+  ]
+}

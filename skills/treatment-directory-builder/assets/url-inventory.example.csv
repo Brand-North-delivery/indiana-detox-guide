@@ -1,0 +1,4 @@
+url,template,primary_intent,audience_stage,parent_hub,required_evidence,media_assignment,schema_type,inbound_links,outbound_links,status,owner
+/,homepage,compare treatment options,comparison,,project brief and provider dataset,homepage hero,WebPage+WebSite+ItemList,sitemap and profiles,hubs and profiles,planned,editorial
+/centers/example-center/,single-location-profile,verify Example Center,comparison,/,location and claim records,provider screenshot,WebPage+MedicalBusiness,homepage and relevant topics,comparison and related topics,planned,research
+/medical-detox/,treatment-topic,understand medical detox,education,/treatment-guides/,authoritative clinical sources,treatment cluster image,MedicalWebPage,parent hub and related topics,provider verification and related topics,planned,content

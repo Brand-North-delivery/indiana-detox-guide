@@ -1,0 +1,2 @@
+record_id,provider,location,claim,source_type,source_url,observed_at,status,conflict,reviewer,notes
+SRC-001,Example Center,Example City,Provider publishes a medical detox program,official-provider,https://provider.example/programs/detox/,2026-08-19,documented,,researcher,Verify service at exact address
