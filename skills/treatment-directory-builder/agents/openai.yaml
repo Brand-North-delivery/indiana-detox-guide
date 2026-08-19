@@ -1,0 +1,4 @@
+interface:
+  display_name: "Treatment Directory Builder"
+  short_description: "Build sourced, entity-rich treatment center directories"
+  default_prompt: "Create or expand a treatment center directory using the complete research, content, schema, media, QA, and deployment workflow."

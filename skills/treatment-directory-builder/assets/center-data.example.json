@@ -1,0 +1,70 @@
+{
+  "project": {
+    "name": "Example Treatment Guide",
+    "canonicalBaseUrl": "https://example.com/",
+    "geography": "State or region",
+    "category": "Medical detox",
+    "publisher": "Publishing organization",
+    "reviewedAt": "2026-08-19",
+    "emergencyText": "Call 911 for an immediate emergency."
+  },
+  "providers": [
+    {
+      "slug": "example-center",
+      "exactName": "Example Center",
+      "featured": true,
+      "featuredDisplayName": "The Example Center",
+      "featuredRationale": "Editor's choice for a clearly documented program characteristic, not clinical outcomes.",
+      "officialWebsite": "https://provider.example/",
+      "programs": [
+        {
+          "name": "Medical detox",
+          "url": "https://provider.example/programs/detox/",
+          "observedAt": "2026-08-19"
+        }
+      ],
+      "locations": [
+        {
+          "entityId": "https://example.com/centers/example-center/#center",
+          "exactGbpName": "Example Center",
+          "streetAddress": "100 Example St",
+          "addressLocality": "Example City",
+          "addressRegion": "IN",
+          "postalCode": "46000",
+          "addressCountry": "US",
+          "phoneDisplay": "(317) 555-0100",
+          "phoneE164": "+1-317-555-0100",
+          "hoursSummary": "Open 24 hours",
+          "googleProfileUrl": "https://www.google.com/maps/search/?api=1&query=Example%20Center%20Indiana",
+          "rating": 4.5,
+          "reviewCount": 100,
+          "reviewObservedAt": "2026-08-19",
+          "reviewThemesPositive": ["Staff support", "Clean environment"],
+          "reviewThemesConcerns": ["Communication consistency"],
+          "napSourceUrl": "https://www.google.com/maps/search/?api=1&query=Example%20Center%20Indiana",
+          "napObservedAt": "2026-08-19"
+        }
+      ],
+      "claims": [
+        {
+          "claim": "Provider publishes a medical detox program.",
+          "sourceUrl": "https://provider.example/programs/detox/",
+          "sourceType": "official-provider",
+          "observedAt": "2026-08-19",
+          "status": "documented"
+        }
+      ],
+      "media": [
+        {
+          "path": "assets/example-center-homepage.png",
+          "sourceUrl": "https://provider.example/",
+          "rightsBasis": "Permitted provider homepage screenshot",
+          "capturedAt": "2026-08-19",
+          "alt": "Screenshot of Example Center homepage showing its treatment campus.",
+          "caption": "Example Center homepage, captured August 19, 2026.",
+          "sha256": "replace-with-real-sha256"
+        }
+      ]
+    }
+  ]
+}
