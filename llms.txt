@@ -12,6 +12,17 @@ The directory was last reviewed on August 19, 2026. Provider information can cha
 - [Evidence matrix](https://brand-north-delivery.github.io/indiana-detox-guide/#compare): A transparent comparison using Documented, Partial, and Verify labels.
 - [Indiana detox FAQs](https://brand-north-delivery.github.io/indiana-detox-guide/#faq): 150 plain-language answers across 15 topics.
 
+## Center profiles
+
+- [The Grove Estate](https://brand-north-delivery.github.io/indiana-detox-guide/centers/the-grove-estate/): Featured Peru profile with Google Business Profile NAP data, review snapshot, detox link, and verification questions.
+- [Boca Recovery Center Indiana](https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/): Separate Bloomington and Huntington location records.
+- [Indiana Center for Recovery](https://brand-north-delivery.github.io/indiana-detox-guide/centers/indiana-center-for-recovery/): Indianapolis location profile within the statewide network.
+- [Ethan Crossing of Indianapolis](https://brand-north-delivery.github.io/indiana-detox-guide/centers/ethan-crossing/): Indianapolis contact record and balanced review themes.
+- [Recovery Centers of America at Indianapolis](https://brand-north-delivery.github.io/indiana-detox-guide/centers/recovery-centers-of-america-indianapolis/): Indianapolis location profile.
+- [Avenues Recovery Center Indiana](https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/): Separate Fort Wayne, Indianapolis, and Clarksville location records.
+
+Google ratings and review counts on profile pages are dated snapshots reviewed August 19, 2026. They are not Indiana Detox Guide rankings or treatment-outcome measures. Use each live Google profile for current reviews.
+
 ## Featured provider
 
 - [The Grove Estate](https://grovetreatment.com/): Official provider website. The directory features The Grove as its clearest private detox and residential retreat example, not as a clinical-quality ranking.
