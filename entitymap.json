@@ -272,6 +272,12 @@
         {"code": "BIO", "name": "Biomedically Enhanced", "definition": "Enhanced biomedical capability at Level 3.7 for specified medical comorbidities."}
       ]
     },
+    "topicPages": [
+      {"cluster": "Treatment types", "urls": ["https://brand-north-delivery.github.io/indiana-detox-guide/alcohol-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/drug-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/medical-detox/", "https://brand-north-delivery.github.io/indiana-detox-guide/alcohol-detox/", "https://brand-north-delivery.github.io/indiana-detox-guide/inpatient-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/outpatient-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/dual-diagnosis-treatment/"]},
+      {"cluster": "Substances", "urls": ["https://brand-north-delivery.github.io/indiana-detox-guide/opioid-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/fentanyl-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/heroin-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/cocaine-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/meth-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/benzo-rehab/"]},
+      {"cluster": "Admissions and cost", "urls": ["https://brand-north-delivery.github.io/indiana-detox-guide/rehab-cost/", "https://brand-north-delivery.github.io/indiana-detox-guide/insurance-for-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/rehab-admissions-process/", "https://brand-north-delivery.github.io/indiana-detox-guide/how-long-is-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/what-to-pack-for-rehab/"]},
+      {"cluster": "Family and recovery", "urls": ["https://brand-north-delivery.github.io/indiana-detox-guide/family-support-addiction/", "https://brand-north-delivery.github.io/indiana-detox-guide/helping-a-loved-one-enter-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/signs-someone-needs-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/relapse-prevention/"]}
+    ],
     "sources": [
       {"name": "ASAM Criteria Fourth Edition", "url": "https://www.asam.org/asam-criteria/asam-criteria-4th-edition"},
       {"name": "ASAM Criteria FAQ", "url": "https://www.asam.org/asam-criteria/criteria-faq"},

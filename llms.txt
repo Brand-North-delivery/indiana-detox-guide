@@ -27,6 +27,18 @@ The directory was last reviewed on August 19, 2026. Provider information can cha
 
 Google ratings and review counts on profile pages are dated snapshots reviewed August 19, 2026. They are not Indiana Detox Guide rankings or treatment-outcome measures. Use each live Google profile for current reviews.
 
+## Treatment education hub
+
+Treatment types: [Alcohol rehab](https://brand-north-delivery.github.io/indiana-detox-guide/alcohol-rehab/), [drug rehab](https://brand-north-delivery.github.io/indiana-detox-guide/drug-rehab/), [medical detox](https://brand-north-delivery.github.io/indiana-detox-guide/medical-detox/), [alcohol detox](https://brand-north-delivery.github.io/indiana-detox-guide/alcohol-detox/), [inpatient and residential rehab](https://brand-north-delivery.github.io/indiana-detox-guide/inpatient-rehab/), [outpatient rehab](https://brand-north-delivery.github.io/indiana-detox-guide/outpatient-rehab/), and [dual diagnosis treatment](https://brand-north-delivery.github.io/indiana-detox-guide/dual-diagnosis-treatment/).
+
+Substance guides: [opioids](https://brand-north-delivery.github.io/indiana-detox-guide/opioid-rehab/), [fentanyl](https://brand-north-delivery.github.io/indiana-detox-guide/fentanyl-rehab/), [heroin](https://brand-north-delivery.github.io/indiana-detox-guide/heroin-rehab/), [cocaine](https://brand-north-delivery.github.io/indiana-detox-guide/cocaine-rehab/), [methamphetamine](https://brand-north-delivery.github.io/indiana-detox-guide/meth-rehab/), and [benzodiazepines](https://brand-north-delivery.github.io/indiana-detox-guide/benzo-rehab/).
+
+Planning guides: [rehab cost](https://brand-north-delivery.github.io/indiana-detox-guide/rehab-cost/), [insurance](https://brand-north-delivery.github.io/indiana-detox-guide/insurance-for-rehab/), [admissions](https://brand-north-delivery.github.io/indiana-detox-guide/rehab-admissions-process/), [treatment duration](https://brand-north-delivery.github.io/indiana-detox-guide/how-long-is-rehab/), and [packing](https://brand-north-delivery.github.io/indiana-detox-guide/what-to-pack-for-rehab/).
+
+Family and recovery: [family support](https://brand-north-delivery.github.io/indiana-detox-guide/family-support-addiction/), [helping a loved one enter rehab](https://brand-north-delivery.github.io/indiana-detox-guide/helping-a-loved-one-enter-rehab/), [signs treatment may be needed](https://brand-north-delivery.github.io/indiana-detox-guide/signs-someone-needs-rehab/), and [relapse prevention](https://brand-north-delivery.github.io/indiana-detox-guide/relapse-prevention/).
+
+Each guide is a statically rendered MedicalWebPage with unique metadata, visible sources, verification questions, related-topic links, a medical disclaimer, and a reviewed date. Topic pages are educational and do not determine diagnosis or level of care.
+
 ## Treatment knowledge graph
 
 - Drug rehab and alcohol rehab are umbrella terms for organized treatment and recovery services; they are not a single level of care.

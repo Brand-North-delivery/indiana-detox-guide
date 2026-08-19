@@ -1,0 +1,24 @@
+.topic-hero { padding: var(--space-3xl) clamp(var(--space-sm), 4vw, var(--space-xl)) var(--space-2xl); border-bottom: var(--rule-hair) solid var(--color-rule); }
+.topic-hero-inner, .topic-section { width: min(100%, 72rem); margin-inline: auto; }
+.topic-hero h1 { max-width: 14ch; }
+.topic-lede { max-width: 62ch; font-size: var(--text-lg); }
+.topic-meta { display: flex; gap: var(--space-sm); flex-wrap: wrap; color: var(--color-muted); font-size: var(--text-sm); }
+.topic-section { padding: var(--space-2xl) clamp(var(--space-sm), 4vw, var(--space-xl)); }
+.topic-section + .topic-section { border-top: var(--rule-hair) solid var(--color-rule); }
+.topic-layout { display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(17rem, .55fr); gap: var(--space-xl); align-items: start; }
+.topic-facts, .topic-related, .topic-sources { display: grid; gap: var(--space-sm); padding: 0; list-style: none; }
+.topic-facts li { padding: var(--space-md) 0; border-top: var(--rule-hair) solid var(--color-rule); }
+.topic-facts strong { display: block; margin-bottom: var(--space-3xs); }
+.topic-aside { padding: var(--space-lg); border: var(--rule-hair) solid var(--color-rule); border-radius: var(--radius-md); background: var(--color-surface); }
+.topic-aside h2 { font-size: var(--text-lg); }
+.topic-related a, .topic-sources a { display: inline-block; }
+.topic-questions { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: var(--space-md); counter-reset: question; }
+.topic-question { min-height: 9rem; padding: var(--space-lg); border: var(--rule-hair) solid var(--color-rule); border-radius: var(--radius-md); }
+.topic-question::before { counter-increment: question; content: "0" counter(question); display: block; color: var(--color-muted); font-size: var(--text-sm); margin-bottom: var(--space-sm); }
+.topic-faq details { border-top: var(--rule-hair) solid var(--color-rule); }
+.topic-faq details:last-child { border-bottom: var(--rule-hair) solid var(--color-rule); }
+.topic-faq summary { padding: var(--space-md) 2.5rem var(--space-md) 0; font-family: var(--font-display); font-size: var(--text-md); cursor: pointer; }
+.topic-faq details p { margin: 0 0 var(--space-lg); }
+.topic-notice { background: var(--color-ink); color: var(--color-paper); }
+.topic-notice .source-note { color: var(--color-paper); }
+@media (max-width: 48rem) { .topic-layout { grid-template-columns: 1fr; } .topic-aside { padding: var(--space-md); } }

@@ -329,6 +329,23 @@ details,
   font-weight: 700;
 }
 
+.guide-clusters article {
+  align-content: start;
+}
+
+.guide-link-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-xs);
+  margin-top: var(--space-md);
+}
+
+.guide-link-list a {
+  display: block;
+  width: fit-content;
+  font-size: var(--text-sm);
+}
+
 .narrow {
   max-width: 52rem;
 }

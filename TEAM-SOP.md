@@ -38,6 +38,8 @@ Build the actual directory as the first screen. Include scope/update date, calm 
 
 Do not publish a lead-generation form unless the brief explicitly requires it and privacy/compliance review is complete. Never imply that the guide is the provider or that a phone routes to the guide when it is a provider number.
 
+For a full topical hub, keep page content in a structured source model and generate committed static HTML. Every topic needs unique intent, a direct opening answer, decision points, provider-verification questions, visible authoritative sources, safety language, unique metadata and schema, and 4-8 related guides. Do not rely on client-side JavaScript to supply the primary crawlable copy.
+
 ## 6. Media
 
 Use owned/licensed/permitted media. For a provider homepage screenshot, record URL, date, viewport, rights basis, hashes, and edits. Write factual contextual alt text, a dated caption, intrinsic dimensions, and a descriptive filename. Strip sensitive EXIF; never invent EXIF/GPS/camera/copyright. Follow `references/media-and-metadata.md` and maintain the asset register.

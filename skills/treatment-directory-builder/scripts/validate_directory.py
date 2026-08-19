@@ -65,6 +65,7 @@ def validate_site(root: Path, data_path: Path | None) -> list[str]:
 
     html_files = [root / "index.html", root / "sitemap.html", root / "entitymap.html"]
     html_files += list((root / "centers").glob("*/index.html")) if (root / "centers").exists() else []
+    html_files += [path for path in root.glob("*/index.html") if path.parent.name != "centers"]
     ids: set[str] = set()
     for path in html_files:
         text = path.read_text(encoding="utf-8")
@@ -92,6 +93,12 @@ def validate_site(root: Path, data_path: Path | None) -> list[str]:
         slug = profile.parent.name
         if f"centers/{slug}/" not in sitemap_html:
             fail(errors, f"HTML sitemap does not link profile: {slug}")
+    for topic in root.glob("*/index.html"):
+        slug = topic.parent.name
+        if slug == "centers":
+            continue
+        if f'{slug}/' not in sitemap_html:
+            fail(errors, f"HTML sitemap does not link topic: {slug}")
 
     if data_path:
         try:
