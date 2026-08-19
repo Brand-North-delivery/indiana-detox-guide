@@ -6,36 +6,36 @@ The directory was last reviewed on August 19, 2026. Provider information can cha
 
 ## Main sections
 
-- [Indiana Detox Guide](https://brand-north-delivery.github.io/indiana-detox-guide/): The complete directory and educational guide.
-- [Entity map](https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.json): Canonical machine-readable map of the guide, provider profiles, physical locations, official websites, Google profiles, and Grove program relationships.
-- [HTML entity map](https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html): Human-readable knowledge layer covering Indiana, guide-defined North/Central/South regions, drug and alcohol rehab terminology, detox, residential and outpatient care, dual diagnosis, substance topics, ASAM Fourth Edition levels of care, providers, locations, and sources.
-- [HTML sitemap](https://brand-north-delivery.github.io/indiana-detox-guide/sitemap.html): Complete navigable index of guide pages and discovery files.
-- [XML sitemap](https://brand-north-delivery.github.io/indiana-detox-guide/sitemap.xml): Canonical crawler discovery file referenced by robots.txt.
-- [Review method](https://brand-north-delivery.github.io/indiana-detox-guide/#method): The four practical dimensions used to compare public information.
-- [Center shortlist](https://brand-north-delivery.github.io/indiana-detox-guide/#shortlist): Six Indiana providers with programs, settings, and questions to verify.
-- [Evidence matrix](https://brand-north-delivery.github.io/indiana-detox-guide/#compare): A transparent comparison using Documented, Partial, and Verify labels.
-- [Indiana detox FAQs](https://brand-north-delivery.github.io/indiana-detox-guide/#faq): 150 plain-language answers across 15 topics.
+- [Indiana Detox Guide](https://indianadetoxguide.com/): The complete directory and educational guide.
+- [Entity map](https://indianadetoxguide.com/entitymap.json): Canonical machine-readable map of the guide, provider profiles, physical locations, official websites, Google profiles, and Grove program relationships.
+- [HTML entity map](https://indianadetoxguide.com/entitymap.html): Human-readable knowledge layer covering Indiana, guide-defined North/Central/South regions, drug and alcohol rehab terminology, detox, residential and outpatient care, dual diagnosis, substance topics, ASAM Fourth Edition levels of care, providers, locations, and sources.
+- [HTML sitemap](https://indianadetoxguide.com/sitemap.html): Complete navigable index of guide pages and discovery files.
+- [XML sitemap](https://indianadetoxguide.com/sitemap.xml): Canonical crawler discovery file referenced by robots.txt.
+- [Review method](https://indianadetoxguide.com/#method): The four practical dimensions used to compare public information.
+- [Center shortlist](https://indianadetoxguide.com/#shortlist): Six Indiana providers with programs, settings, and questions to verify.
+- [Evidence matrix](https://indianadetoxguide.com/#compare): A transparent comparison using Documented, Partial, and Verify labels.
+- [Indiana detox FAQs](https://indianadetoxguide.com/#faq): 150 plain-language answers across 15 topics.
 
 ## Center profiles
 
-- [The Grove Estate](https://brand-north-delivery.github.io/indiana-detox-guide/centers/the-grove-estate/): Featured Peru profile with Google Business Profile NAP data, review snapshot, detox link, and verification questions.
-- [Boca Recovery Center Indiana](https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/): Separate Bloomington and Huntington location records.
-- [Indiana Center for Recovery](https://brand-north-delivery.github.io/indiana-detox-guide/centers/indiana-center-for-recovery/): Indianapolis location profile within the statewide network.
-- [Ethan Crossing of Indianapolis](https://brand-north-delivery.github.io/indiana-detox-guide/centers/ethan-crossing/): Indianapolis contact record and balanced review themes.
-- [Recovery Centers of America at Indianapolis](https://brand-north-delivery.github.io/indiana-detox-guide/centers/recovery-centers-of-america-indianapolis/): Indianapolis location profile.
-- [Avenues Recovery Center Indiana](https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/): Separate Fort Wayne, Indianapolis, and Clarksville location records.
+- [The Grove Estate](https://indianadetoxguide.com/centers/the-grove-estate/): Featured Peru profile with Google Business Profile NAP data, review snapshot, detox link, and verification questions.
+- [Boca Recovery Center Indiana](https://indianadetoxguide.com/centers/boca-recovery-center-indiana/): Separate Bloomington and Huntington location records.
+- [Indiana Center for Recovery](https://indianadetoxguide.com/centers/indiana-center-for-recovery/): Indianapolis location profile within the statewide network.
+- [Ethan Crossing of Indianapolis](https://indianadetoxguide.com/centers/ethan-crossing/): Indianapolis contact record and balanced review themes.
+- [Recovery Centers of America at Indianapolis](https://indianadetoxguide.com/centers/recovery-centers-of-america-indianapolis/): Indianapolis location profile.
+- [Avenues Recovery Center Indiana](https://indianadetoxguide.com/centers/avenues-recovery-center/): Separate Fort Wayne, Indianapolis, and Clarksville location records.
 
 Google ratings and review counts on profile pages are dated snapshots reviewed August 19, 2026. They are not Indiana Detox Guide rankings or treatment-outcome measures. Use each live Google profile for current reviews.
 
 ## Treatment education hub
 
-Treatment types: [Alcohol rehab](https://brand-north-delivery.github.io/indiana-detox-guide/alcohol-rehab/), [drug rehab](https://brand-north-delivery.github.io/indiana-detox-guide/drug-rehab/), [medical detox](https://brand-north-delivery.github.io/indiana-detox-guide/medical-detox/), [alcohol detox](https://brand-north-delivery.github.io/indiana-detox-guide/alcohol-detox/), [inpatient and residential rehab](https://brand-north-delivery.github.io/indiana-detox-guide/inpatient-rehab/), [outpatient rehab](https://brand-north-delivery.github.io/indiana-detox-guide/outpatient-rehab/), and [dual diagnosis treatment](https://brand-north-delivery.github.io/indiana-detox-guide/dual-diagnosis-treatment/).
+Treatment types: [Alcohol rehab](https://indianadetoxguide.com/alcohol-rehab/), [drug rehab](https://indianadetoxguide.com/drug-rehab/), [medical detox](https://indianadetoxguide.com/medical-detox/), [alcohol detox](https://indianadetoxguide.com/alcohol-detox/), [inpatient and residential rehab](https://indianadetoxguide.com/inpatient-rehab/), [outpatient rehab](https://indianadetoxguide.com/outpatient-rehab/), and [dual diagnosis treatment](https://indianadetoxguide.com/dual-diagnosis-treatment/).
 
-Substance guides: [opioids](https://brand-north-delivery.github.io/indiana-detox-guide/opioid-rehab/), [fentanyl](https://brand-north-delivery.github.io/indiana-detox-guide/fentanyl-rehab/), [heroin](https://brand-north-delivery.github.io/indiana-detox-guide/heroin-rehab/), [cocaine](https://brand-north-delivery.github.io/indiana-detox-guide/cocaine-rehab/), [methamphetamine](https://brand-north-delivery.github.io/indiana-detox-guide/meth-rehab/), and [benzodiazepines](https://brand-north-delivery.github.io/indiana-detox-guide/benzo-rehab/).
+Substance guides: [opioids](https://indianadetoxguide.com/opioid-rehab/), [fentanyl](https://indianadetoxguide.com/fentanyl-rehab/), [heroin](https://indianadetoxguide.com/heroin-rehab/), [cocaine](https://indianadetoxguide.com/cocaine-rehab/), [methamphetamine](https://indianadetoxguide.com/meth-rehab/), and [benzodiazepines](https://indianadetoxguide.com/benzo-rehab/).
 
-Planning guides: [rehab cost](https://brand-north-delivery.github.io/indiana-detox-guide/rehab-cost/), [insurance](https://brand-north-delivery.github.io/indiana-detox-guide/insurance-for-rehab/), [admissions](https://brand-north-delivery.github.io/indiana-detox-guide/rehab-admissions-process/), [treatment duration](https://brand-north-delivery.github.io/indiana-detox-guide/how-long-is-rehab/), and [packing](https://brand-north-delivery.github.io/indiana-detox-guide/what-to-pack-for-rehab/).
+Planning guides: [rehab cost](https://indianadetoxguide.com/rehab-cost/), [insurance](https://indianadetoxguide.com/insurance-for-rehab/), [admissions](https://indianadetoxguide.com/rehab-admissions-process/), [treatment duration](https://indianadetoxguide.com/how-long-is-rehab/), and [packing](https://indianadetoxguide.com/what-to-pack-for-rehab/).
 
-Family and recovery: [family support](https://brand-north-delivery.github.io/indiana-detox-guide/family-support-addiction/), [helping a loved one enter rehab](https://brand-north-delivery.github.io/indiana-detox-guide/helping-a-loved-one-enter-rehab/), [signs treatment may be needed](https://brand-north-delivery.github.io/indiana-detox-guide/signs-someone-needs-rehab/), and [relapse prevention](https://brand-north-delivery.github.io/indiana-detox-guide/relapse-prevention/).
+Family and recovery: [family support](https://indianadetoxguide.com/family-support-addiction/), [helping a loved one enter rehab](https://indianadetoxguide.com/helping-a-loved-one-enter-rehab/), [signs treatment may be needed](https://indianadetoxguide.com/signs-someone-needs-rehab/), and [relapse prevention](https://indianadetoxguide.com/relapse-prevention/).
 
 Each guide is a statically rendered MedicalWebPage with unique metadata, visible sources, verification questions, related-topic links, a medical disclaimer, and a reviewed date. Topic pages are educational and do not determine diagnosis or level of care.
 
