@@ -1,43 +1,43 @@
 {
   "name": "Indiana Detox Guide entity map",
-  "url": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.json",
-  "humanReadableUrl": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html",
-  "sitemapUrl": "https://brand-north-delivery.github.io/indiana-detox-guide/sitemap.html",
+  "url": "https://indianadetoxguide.com/entitymap.json",
+  "humanReadableUrl": "https://indianadetoxguide.com/entitymap.html",
+  "sitemapUrl": "https://indianadetoxguide.com/sitemap.html",
   "dateModified": "2026-08-19",
   "primaryEntity": {
-    "id": "https://brand-north-delivery.github.io/indiana-detox-guide/#website",
+    "id": "https://indianadetoxguide.com/#website",
     "type": "WebSite",
     "name": "Indiana Detox Guide",
-    "url": "https://brand-north-delivery.github.io/indiana-detox-guide/",
+    "url": "https://indianadetoxguide.com/",
     "description": "An independent guide to comparing publicly documented detox and addiction treatment options in Indiana."
   },
   "relationships": [
     {
-      "subject": "https://brand-north-delivery.github.io/indiana-detox-guide/#website",
+      "subject": "https://indianadetoxguide.com/#website",
       "predicate": "features",
-      "object": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/the-grove-estate/#center"
+      "object": "https://indianadetoxguide.com/centers/the-grove-estate/#center"
     },
     {
-      "subject": "https://brand-north-delivery.github.io/indiana-detox-guide/#website",
+      "subject": "https://indianadetoxguide.com/#website",
       "predicate": "describes",
       "objects": [
-        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/#bloomington",
-        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/#huntington",
-        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/indiana-center-for-recovery/#center",
-        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/ethan-crossing/#center",
-        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/recovery-centers-of-america-indianapolis/#center",
-        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#fort-wayne",
-        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#indianapolis",
-        "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#clarksville"
+        "https://indianadetoxguide.com/centers/boca-recovery-center-indiana/#bloomington",
+        "https://indianadetoxguide.com/centers/boca-recovery-center-indiana/#huntington",
+        "https://indianadetoxguide.com/centers/indiana-center-for-recovery/#center",
+        "https://indianadetoxguide.com/centers/ethan-crossing/#center",
+        "https://indianadetoxguide.com/centers/recovery-centers-of-america-indianapolis/#center",
+        "https://indianadetoxguide.com/centers/avenues-recovery-center/#fort-wayne",
+        "https://indianadetoxguide.com/centers/avenues-recovery-center/#indianapolis",
+        "https://indianadetoxguide.com/centers/avenues-recovery-center/#clarksville"
       ]
     }
   ],
   "entities": [
     {
-      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/the-grove-estate/#center",
+      "id": "https://indianadetoxguide.com/centers/the-grove-estate/#center",
       "type": ["MedicalBusiness", "Organization"],
       "name": "The Grove Estate",
-      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/the-grove-estate/",
+      "profile": "https://indianadetoxguide.com/centers/the-grove-estate/",
       "officialWebsite": "https://grovetreatment.com/",
       "googleProfile": "https://www.google.com/maps/search/?api=1&query=The%20Grove%20Estate%20Peru%20Indiana",
       "location": "3413 S Wallick Rd, Peru, IN 46970",
@@ -54,78 +54,78 @@
       ]
     },
     {
-      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/#bloomington",
+      "id": "https://indianadetoxguide.com/centers/boca-recovery-center-indiana/#bloomington",
       "type": "MedicalBusiness",
       "name": "Boca Recovery Center - Bloomington Alcohol & Drug Rehab",
-      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/",
+      "profile": "https://indianadetoxguide.com/centers/boca-recovery-center-indiana/",
       "officialWebsite": "https://bocarecoverycenter.com/location/bloomington-drug-treatment-center/",
       "googleProfile": "https://www.google.com/maps/search/?api=1&query=Boca%20Recovery%20Center%20Bloomington%20Indiana",
       "location": "2306 W 3rd St, Bloomington, IN 47404",
       "telephone": "+1-930-203-1400"
     },
     {
-      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/#huntington",
+      "id": "https://indianadetoxguide.com/centers/boca-recovery-center-indiana/#huntington",
       "type": "MedicalBusiness",
       "name": "Boca Recovery Center - Indiana Drug and Alcohol Rehab",
-      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/",
+      "profile": "https://indianadetoxguide.com/centers/boca-recovery-center-indiana/",
       "officialWebsite": "https://bocarecoverycenter.com/",
       "googleProfile": "https://www.google.com/maps/search/?api=1&query=Boca%20Recovery%20Center%20Huntington%20Indiana",
       "location": "3040 W Park Dr, Huntington, IN 46750",
       "telephone": "+1-260-888-8006"
     },
     {
-      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/indiana-center-for-recovery/#center",
+      "id": "https://indianadetoxguide.com/centers/indiana-center-for-recovery/#center",
       "type": "MedicalBusiness",
       "name": "Indiana Center for Recovery - Alcohol & Drug Rehab Center Indianapolis",
-      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/indiana-center-for-recovery/",
+      "profile": "https://indianadetoxguide.com/centers/indiana-center-for-recovery/",
       "officialWebsite": "https://www.treatmentindiana.com/locations/indianapolis/",
       "googleProfile": "https://www.google.com/maps/search/?api=1&query=Indiana%20Center%20for%20Recovery%20Indianapolis%20Indiana",
       "location": "5510 S Emerson Ave, Indianapolis, IN 46237",
       "telephone": "+1-317-659-6302"
     },
     {
-      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/ethan-crossing/#center",
+      "id": "https://indianadetoxguide.com/centers/ethan-crossing/#center",
       "type": "MedicalBusiness",
       "name": "Ethan Crossing of Indianapolis",
-      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/ethan-crossing/",
+      "profile": "https://indianadetoxguide.com/centers/ethan-crossing/",
       "officialWebsite": "https://newvistahealth.com/location/indianapolis/",
       "googleProfile": "https://www.google.com/maps/search/?api=1&query=Ethan%20Crossing%20Addiction%20Treatment%20Indianapolis%20Indiana",
       "location": "4102 Shore Dr, Indianapolis, IN 46254",
       "telephone": "+1-317-597-2117"
     },
     {
-      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/recovery-centers-of-america-indianapolis/#center",
+      "id": "https://indianadetoxguide.com/centers/recovery-centers-of-america-indianapolis/#center",
       "type": "MedicalBusiness",
       "name": "Recovery Centers of America at Indianapolis",
-      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/recovery-centers-of-america-indianapolis/",
+      "profile": "https://indianadetoxguide.com/centers/recovery-centers-of-america-indianapolis/",
       "officialWebsite": "https://recoverycentersofamerica.com/locations/indianapolis/",
       "googleProfile": "https://www.google.com/maps/search/?api=1&query=Recovery%20Centers%20of%20America%20Indianapolis%20Indiana",
       "location": "8530 Township Line Rd, Indianapolis, IN 46260",
       "telephone": "+1-463-999-9045"
     },
     {
-      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#fort-wayne",
+      "id": "https://indianadetoxguide.com/centers/avenues-recovery-center/#fort-wayne",
       "type": "MedicalBusiness",
       "name": "Avenues Recovery Center at Fort Wayne",
-      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/",
+      "profile": "https://indianadetoxguide.com/centers/avenues-recovery-center/",
       "googleProfile": "https://www.google.com/maps/search/?api=1&query=Avenues%20Recovery%20Center%20Fort%20Wayne%20Indiana",
       "location": "2626 Fairfield Ave, Fort Wayne, IN 46807",
       "telephone": "+1-260-909-8343"
     },
     {
-      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#indianapolis",
+      "id": "https://indianadetoxguide.com/centers/avenues-recovery-center/#indianapolis",
       "type": "MedicalBusiness",
       "name": "Avenues Recovery Center at Indianapolis",
-      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/",
+      "profile": "https://indianadetoxguide.com/centers/avenues-recovery-center/",
       "googleProfile": "https://www.google.com/maps/search/?api=1&query=Avenues%20Recovery%20Center%20Indianapolis%20Indiana",
       "location": "7960 Shadeland Ave, Indianapolis, IN 46250",
       "telephone": "+1-463-217-0770"
     },
     {
-      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#clarksville",
+      "id": "https://indianadetoxguide.com/centers/avenues-recovery-center/#clarksville",
       "type": "MedicalBusiness",
       "name": "Avenues Recovery Center at Clarksville",
-      "profile": "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/",
+      "profile": "https://indianadetoxguide.com/centers/avenues-recovery-center/",
       "officialWebsite": "https://www.avenuesrecovery.com/",
       "googleProfile": "https://www.google.com/maps/search/?api=1&query=Avenues%20Recovery%20Center%20Clarksville%20Indiana",
       "location": "4601 Medical Plaza Way, Clarksville, IN 47129",
@@ -134,116 +134,116 @@
   ],
   "knowledgeGraph": {
     "geography": {
-      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#indiana",
+      "id": "https://indianadetoxguide.com/entitymap.html#indiana",
       "type": "State",
       "name": "Indiana",
       "description": "A U.S. state used as the geographic scope of this treatment directory.",
       "containsGuideRegions": [
-        "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#north-indiana",
-        "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#central-indiana",
-        "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#south-indiana"
+        "https://indianadetoxguide.com/entitymap.html#north-indiana",
+        "https://indianadetoxguide.com/entitymap.html#central-indiana",
+        "https://indianadetoxguide.com/entitymap.html#south-indiana"
       ],
       "authoritativeTreatmentResource": "https://secure.in.gov/fssa/dmha/quality-assurance-quality-improvement/mental-health-and-addiction-providers/"
     },
     "regions": [
       {
-        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#north-indiana",
+        "id": "https://indianadetoxguide.com/entitymap.html#north-indiana",
         "name": "North Indiana",
         "classification": "Guide-defined navigation region",
         "description": "The guide groups Fort Wayne, Huntington, and Peru in North Indiana for browsing. This is not an official Indiana service-region boundary.",
         "containsLocations": [
-          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/the-grove-estate/#center",
-          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/#huntington",
-          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#fort-wayne"
+          "https://indianadetoxguide.com/centers/the-grove-estate/#center",
+          "https://indianadetoxguide.com/centers/boca-recovery-center-indiana/#huntington",
+          "https://indianadetoxguide.com/centers/avenues-recovery-center/#fort-wayne"
         ]
       },
       {
-        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#central-indiana",
+        "id": "https://indianadetoxguide.com/entitymap.html#central-indiana",
         "name": "Central Indiana",
         "classification": "Guide-defined navigation region",
         "description": "The guide groups Indianapolis locations in Central Indiana for browsing. This is not an official Indiana service-region boundary.",
         "containsLocations": [
-          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/indiana-center-for-recovery/#center",
-          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/ethan-crossing/#center",
-          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/recovery-centers-of-america-indianapolis/#center",
-          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#indianapolis"
+          "https://indianadetoxguide.com/centers/indiana-center-for-recovery/#center",
+          "https://indianadetoxguide.com/centers/ethan-crossing/#center",
+          "https://indianadetoxguide.com/centers/recovery-centers-of-america-indianapolis/#center",
+          "https://indianadetoxguide.com/centers/avenues-recovery-center/#indianapolis"
         ]
       },
       {
-        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#south-indiana",
+        "id": "https://indianadetoxguide.com/entitymap.html#south-indiana",
         "name": "South Indiana",
         "classification": "Guide-defined navigation region",
         "description": "The guide groups Bloomington and Clarksville in South Indiana for browsing. This is not an official Indiana service-region boundary.",
         "containsLocations": [
-          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/boca-recovery-center-indiana/#bloomington",
-          "https://brand-north-delivery.github.io/indiana-detox-guide/centers/avenues-recovery-center/#clarksville"
+          "https://indianadetoxguide.com/centers/boca-recovery-center-indiana/#bloomington",
+          "https://indianadetoxguide.com/centers/avenues-recovery-center/#clarksville"
         ]
       }
     ],
     "treatmentConcepts": [
       {
-        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#substance-use-disorder",
+        "id": "https://indianadetoxguide.com/entitymap.html#substance-use-disorder",
         "name": "Substance use disorder",
         "alternateName": "SUD",
         "definition": "A health condition involving a problematic pattern of substance use that causes clinically significant impairment or distress. Diagnosis belongs to qualified clinicians."
       },
       {
-        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#drug-rehab",
+        "id": "https://indianadetoxguide.com/entitymap.html#drug-rehab",
         "name": "Drug rehabilitation",
         "alternateName": "Drug rehab",
         "definition": "An umbrella term for organized treatment and recovery services addressing problematic drug use; it may include assessment, withdrawal management, medications, counseling, residential or outpatient care, and continuing support."
       },
       {
-        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#alcohol-rehab",
+        "id": "https://indianadetoxguide.com/entitymap.html#alcohol-rehab",
         "name": "Alcohol rehabilitation",
         "alternateName": "Alcohol rehab",
         "definition": "Organized treatment and recovery services for alcohol-related problems, potentially including medically supervised withdrawal management, medications, counseling, residential or outpatient care, and continuing support."
       },
       {
-        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#medical-detox",
+        "id": "https://indianadetoxguide.com/entitymap.html#medical-detox",
         "name": "Medical detoxification",
         "alternateName": "Medical detox",
         "definition": "Clinical evaluation, monitoring, and treatment of intoxication or withdrawal risk. Detoxification is a stabilization phase and is not the same as a complete rehabilitation plan."
       },
       {
-        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#residential-treatment",
+        "id": "https://indianadetoxguide.com/entitymap.html#residential-treatment",
         "name": "Residential treatment",
         "definition": "A structured treatment program in which a person lives at the program while receiving services. Residential intensity and medical capability vary by program."
       },
       {
-        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#outpatient-treatment",
+        "id": "https://indianadetoxguide.com/entitymap.html#outpatient-treatment",
         "name": "Outpatient treatment",
         "definition": "Treatment delivered through scheduled visits without an overnight stay; frequency and clinical intensity vary."
       },
       {
-        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#dual-diagnosis",
+        "id": "https://indianadetoxguide.com/entitymap.html#dual-diagnosis",
         "name": "Co-occurring disorder treatment",
         "alternateName": "Dual diagnosis treatment",
         "definition": "Integrated or coordinated care for substance-use needs and co-occurring mental-health conditions."
       },
       {
-        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#medications-for-addiction-treatment",
+        "id": "https://indianadetoxguide.com/entitymap.html#medications-for-addiction-treatment",
         "name": "Medications for addiction treatment",
         "alternateName": "MAT",
         "definition": "Use of approved medications as part of treatment for certain substance use disorders, commonly combined with clinical and recovery support according to individual need."
       },
       {
-        "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#continuing-care",
+        "id": "https://indianadetoxguide.com/entitymap.html#continuing-care",
         "name": "Continuing care",
         "alternateName": "Aftercare",
         "definition": "Ongoing services and recovery supports after an initial treatment phase, which may include outpatient care, medications, peer support, recovery housing, or monitoring."
       }
     ],
     "substanceTopics": [
-      {"id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#alcohol", "name": "Alcohol", "relationship": "Potential focus of withdrawal management and alcohol-use-disorder treatment"},
-      {"id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#opioids", "name": "Opioids", "relationship": "Potential focus of opioid withdrawal management and opioid-use-disorder treatment"},
-      {"id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#benzodiazepines", "name": "Benzodiazepines", "relationship": "Potential focus of medically supervised withdrawal management because abrupt discontinuation can be dangerous"},
-      {"id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#stimulants", "name": "Stimulants", "relationship": "Potential focus of substance-use treatment and psychiatric or medical assessment"},
-      {"id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#cannabis", "name": "Cannabis", "relationship": "Potential focus of substance-use assessment and treatment"},
-      {"id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#polysubstance-use", "name": "Polysubstance use", "relationship": "Use of more than one substance, which can change withdrawal risk and placement needs"}
+      {"id": "https://indianadetoxguide.com/entitymap.html#alcohol", "name": "Alcohol", "relationship": "Potential focus of withdrawal management and alcohol-use-disorder treatment"},
+      {"id": "https://indianadetoxguide.com/entitymap.html#opioids", "name": "Opioids", "relationship": "Potential focus of opioid withdrawal management and opioid-use-disorder treatment"},
+      {"id": "https://indianadetoxguide.com/entitymap.html#benzodiazepines", "name": "Benzodiazepines", "relationship": "Potential focus of medically supervised withdrawal management because abrupt discontinuation can be dangerous"},
+      {"id": "https://indianadetoxguide.com/entitymap.html#stimulants", "name": "Stimulants", "relationship": "Potential focus of substance-use treatment and psychiatric or medical assessment"},
+      {"id": "https://indianadetoxguide.com/entitymap.html#cannabis", "name": "Cannabis", "relationship": "Potential focus of substance-use assessment and treatment"},
+      {"id": "https://indianadetoxguide.com/entitymap.html#polysubstance-use", "name": "Polysubstance use", "relationship": "Use of more than one substance, which can change withdrawal risk and placement needs"}
     ],
     "asamCriteria": {
-      "id": "https://brand-north-delivery.github.io/indiana-detox-guide/entitymap.html#asam-levels",
+      "id": "https://indianadetoxguide.com/entitymap.html#asam-levels",
       "name": "The ASAM Criteria, Fourth Edition",
       "definition": "A person-centered framework for multidimensional assessment, treatment planning, and matching patients to an appropriate level of addiction care.",
       "source": "https://www.asam.org/asam-criteria/asam-criteria-4th-edition",
@@ -273,10 +273,10 @@
       ]
     },
     "topicPages": [
-      {"cluster": "Treatment types", "urls": ["https://brand-north-delivery.github.io/indiana-detox-guide/alcohol-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/drug-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/medical-detox/", "https://brand-north-delivery.github.io/indiana-detox-guide/alcohol-detox/", "https://brand-north-delivery.github.io/indiana-detox-guide/inpatient-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/outpatient-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/dual-diagnosis-treatment/"]},
-      {"cluster": "Substances", "urls": ["https://brand-north-delivery.github.io/indiana-detox-guide/opioid-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/fentanyl-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/heroin-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/cocaine-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/meth-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/benzo-rehab/"]},
-      {"cluster": "Admissions and cost", "urls": ["https://brand-north-delivery.github.io/indiana-detox-guide/rehab-cost/", "https://brand-north-delivery.github.io/indiana-detox-guide/insurance-for-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/rehab-admissions-process/", "https://brand-north-delivery.github.io/indiana-detox-guide/how-long-is-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/what-to-pack-for-rehab/"]},
-      {"cluster": "Family and recovery", "urls": ["https://brand-north-delivery.github.io/indiana-detox-guide/family-support-addiction/", "https://brand-north-delivery.github.io/indiana-detox-guide/helping-a-loved-one-enter-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/signs-someone-needs-rehab/", "https://brand-north-delivery.github.io/indiana-detox-guide/relapse-prevention/"]}
+      {"cluster": "Treatment types", "urls": ["https://indianadetoxguide.com/alcohol-rehab/", "https://indianadetoxguide.com/drug-rehab/", "https://indianadetoxguide.com/medical-detox/", "https://indianadetoxguide.com/alcohol-detox/", "https://indianadetoxguide.com/inpatient-rehab/", "https://indianadetoxguide.com/outpatient-rehab/", "https://indianadetoxguide.com/dual-diagnosis-treatment/"]},
+      {"cluster": "Substances", "urls": ["https://indianadetoxguide.com/opioid-rehab/", "https://indianadetoxguide.com/fentanyl-rehab/", "https://indianadetoxguide.com/heroin-rehab/", "https://indianadetoxguide.com/cocaine-rehab/", "https://indianadetoxguide.com/meth-rehab/", "https://indianadetoxguide.com/benzo-rehab/"]},
+      {"cluster": "Admissions and cost", "urls": ["https://indianadetoxguide.com/rehab-cost/", "https://indianadetoxguide.com/insurance-for-rehab/", "https://indianadetoxguide.com/rehab-admissions-process/", "https://indianadetoxguide.com/how-long-is-rehab/", "https://indianadetoxguide.com/what-to-pack-for-rehab/"]},
+      {"cluster": "Family and recovery", "urls": ["https://indianadetoxguide.com/family-support-addiction/", "https://indianadetoxguide.com/helping-a-loved-one-enter-rehab/", "https://indianadetoxguide.com/signs-someone-needs-rehab/", "https://indianadetoxguide.com/relapse-prevention/"]}
     ],
     "sources": [
       {"name": "ASAM Criteria Fourth Edition", "url": "https://www.asam.org/asam-criteria/asam-criteria-4th-edition"},

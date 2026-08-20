@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = "https://brand-north-delivery.github.io/indiana-detox-guide/"
+BASE = "https://indianadetoxguide.com/"
 REVIEWED = "August 19, 2026"
 
 CLUSTER_IMAGES = {

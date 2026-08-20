@@ -19,8 +19,8 @@ if (faqEntities.length) {
   faqSchema.textContent = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "@id": "https://brand-north-delivery.github.io/indiana-detox-guide/#faq",
-    url: "https://brand-north-delivery.github.io/indiana-detox-guide/#faq",
+    "@id": "https://indianadetoxguide.com/#faq",
+    url: "https://indianadetoxguide.com/#faq",
     name: "Indiana detox frequently asked questions",
     mainEntity: faqEntities,
   });

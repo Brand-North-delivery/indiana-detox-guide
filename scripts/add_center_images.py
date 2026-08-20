@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = "https://brand-north-delivery.github.io/indiana-detox-guide/"
+BASE = "https://indianadetoxguide.com/"
 
 DEFAULT_IMAGE = {
     "file": "treatment-consultation-room.png",
