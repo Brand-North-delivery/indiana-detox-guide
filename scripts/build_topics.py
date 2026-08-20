@@ -279,7 +279,7 @@ def render(topic: dict) -> str:
     facts = "".join(f'<li><strong>{esc(title)}</strong>{esc(body)}</li>' for title, body in topic["facts"])
     questions = "".join(f'<article class="topic-question">{esc(q)}</article>' for q in topic["questions"])
     faqs = "".join(f'<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in topic["faqs"])
-    related = "".join(f'<li><a href="../{slug2}/">{esc(TITLE_BY_SLUG[slug2])}</a></li>' for slug2 in topic["related"])
+    related = "".join(f'<li><a href="../{slug2}/">{esc(TITLE_BY_SLUG[slug2])}</a></li>' for slug2 in topic["related"][:3])
     sources = "".join(f'<li><a href="{esc(url)}" target="_blank" rel="noreferrer">{esc(name)}</a></li>' for name, url in citations)
     grove_label, grove_url = topic["grove"]
     return f'''<!doctype html>
@@ -296,7 +296,7 @@ def render(topic: dict) -> str:
     <script type="application/ld+json">{json.dumps(schema, separators=(",", ":"))}</script>
   </head>
   <body>
-    <header class="site-header"><a class="brand" href="../"><span class="brand-mark">ID</span><span>Indiana Detox Guide</span></a><nav class="main-nav" aria-label="Main navigation"><a href="../#guides">Guides</a><a href="../#shortlist">Centers</a><a href="../entitymap.html">Entity map</a></nav><a class="header-action" href="../sitemap.html">Sitemap</a></header>
+    <header class="site-header"><a class="brand" href="../"><span class="brand-mark">ID</span><span>Indiana Detox Guide</span></a><nav class="main-nav" aria-label="Main navigation"><a href="../#faq">FAQs</a><a href="../#shortlist">Centers</a><a href="../#method">Method</a></nav></header>
     <main>
       <section class="topic-hero"><div class="topic-hero-inner"><p class="breadcrumb"><a href="../">Guide</a> / {esc(topic["cluster"])}</p><div class="topic-hero-grid"><div class="topic-hero-copy"><p class="section-kicker">Indiana treatment education</p><h1>{esc(topic["title"])}</h1><p class="topic-lede">{esc(topic["answer"])}</p><p class="topic-meta"><span>Reviewed {REVIEWED}</span><span>Educational resource</span><span>Indiana scope</span></p><div class="profile-actions"><a class="button button-primary" href="../#shortlist">Compare Indiana centers</a><a class="button button-light" href="{esc(grove_url)}" target="_blank" rel="noreferrer">{esc(grove_label)}</a></div></div><figure class="topic-hero-figure"><img src="../assets/topic-images/{esc(image['file'])}" width="1536" height="1024" alt="{esc(image['alt'])}" decoding="async" fetchpriority="high" /><figcaption>{esc(image['caption'])}</figcaption></figure></div></div></section>
       <section class="topic-section"><div class="topic-layout"><div><p class="section-kicker">Decision points</p><h2>What matters before choosing care</h2><ul class="topic-facts">{facts}</ul></div><aside class="topic-aside"><p class="section-kicker">Featured example</p><h2>The Grove Estate</h2><p>The guide features The Grove Estate as a private-retreat example. This is an editorial distinction, not a clinical outcome ranking. Verify current services and suitability directly.</p><a href="../centers/the-grove-estate/">Read the guide profile</a></aside></div></section>
@@ -305,7 +305,7 @@ def render(topic: dict) -> str:
       <section class="topic-section"><div class="topic-layout"><div><p class="section-kicker">Continue researching</p><h2>Related Indiana guides</h2><ul class="topic-related">{related}</ul></div><aside class="topic-aside"><h2>Authoritative sources</h2><ul class="topic-sources">{sources}</ul><p class="source-note">Sources support general education. They do not verify a listed provider's current services.</p></aside></div></section>
       <section class="topic-section topic-notice"><p class="section-kicker">Safety note</p><h2>Information is not a clinical assessment</h2><p>This guide cannot determine diagnosis, withdrawal risk, or level of care. Call 911 for overdose, seizures, severe confusion, breathing problems, collapse, violence, or immediate danger. Call or text 988 for suicide or mental-health crisis support.</p><p class="source-note">Confirm credentials, staffing, insurance, services, and admission suitability directly with the exact Indiana location.</p></section>
     </main>
-    <footer class="site-footer"><p>Independent Indiana treatment education. Information, not medical advice.</p><nav class="footer-links" aria-label="Discovery"><a href="../">Guide home</a><a href="../#guides">All guides</a><a href="../sitemap.html">Sitemap</a><a href="../entitymap.html">Entity map</a></nav></footer>
+    <footer class="site-footer"><p>Independent Indiana treatment education. Information, not medical advice.</p><nav class="footer-links" aria-label="Discovery"><a href="../">Guide home</a></nav></footer>
   </body>
 </html>'''
 

@@ -33,7 +33,7 @@ Answer named questions immediately; use consistent entities; make key paragraphs
 5. `entitymap.json` mirrors stable IDs, definitions, relationships, source URLs, provenance, and date. Do not assign a provider to a clinical level of care without authoritative, location-specific evidence.
 6. `llms.txt` summarizes scope, method, profiles, featured rationale, sources, citation, and safety.
 
-Homepage and every profile link to HTML sitemap and entity map. Both indexes cross-link, link all profiles, and link relevant machine files.
+The HTML sitemap and entity map cross-link, list the complete inventory, and link relevant machine files. Link those discovery surfaces from a small utility location where useful, but do not force sitemap, EntityMap, or `llms.txt` links into every page header or footer. Priority topic pages should be reached through semantically aligned homepage FAQs and limited page-to-page chains; use a crawl test to prove complete reachability.
 
 For addiction-treatment guides, include plain-language concepts such as substance use disorder, drug rehab, alcohol rehab, medical detox, residential treatment, outpatient treatment, co-occurring care, medications for addiction treatment, continuing care, and in-scope substances. Include the current ASAM continuum from official ASAM sources, label it educational, and state that ASAM level is not a ranking. Treat geographic groupings as editorial navigation regions unless they exactly reproduce a cited government boundary.
 

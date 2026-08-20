@@ -31,7 +31,7 @@ Recommended dimensions: clinical scope, medical support, setting, and continuing
 
 ## Profile template
 
-Include breadcrumb/geography, exact title, editorial summary, dated GBP snapshot, one NAP card per location, official/live-Google actions, rating attribution, balanced review themes, documented programs, specific verification questions, correction/update note, medical disclaimer, and links to guide/sitemap/entity map.
+Include breadcrumb/geography, exact title, editorial summary, dated GBP snapshot, one NAP card per location, official/live-Google actions, rating attribution, balanced review themes, documented programs, specific verification questions, correction/update note, medical disclaimer, and contextual links to the guide or closely related decisions. Reserve exhaustive discovery links for dedicated sitemap and entity-map surfaces.
 
 ## FAQs and AEO copy
 
@@ -42,5 +42,7 @@ Derive clusters from actual decisions, provider-verification needs, topical gaps
 - Avoid individualized advice and absolute claims.
 - Keep visible answers aligned with structured data.
 - Link each answer to the most useful next page when a natural next step exists, without repeating the same paragraph under different questions.
+- Use homepage FAQ answers as contextual entry points to priority topic hubs. Do not reproduce the full topical map in a sitewide footer or a dense homepage link block.
+- Give each topic page a limited semantic chain, normally two or three adjacent guides. Verify that the combined graph still reaches every indexable page from the homepage.
 
 Write calmly, specifically, and without stigma. Amenities never substitute for clinical capability.
