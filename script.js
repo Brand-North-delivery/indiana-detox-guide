@@ -3,30 +3,6 @@ const cards = document.querySelectorAll(".center-card");
 const matchCards = document.querySelectorAll("[data-result]");
 const matchResult = document.querySelector(".match-result");
 
-const faqEntities = Array.from(document.querySelectorAll(".faq details")).map((item) => ({
-  "@type": "Question",
-  name: item.querySelector("summary")?.textContent.trim(),
-  acceptedAnswer: {
-    "@type": "Answer",
-    text: item.querySelector("p")?.textContent.trim(),
-  },
-}));
-
-if (faqEntities.length) {
-  const faqSchema = document.createElement("script");
-  faqSchema.type = "application/ld+json";
-  faqSchema.id = "faq-schema";
-  faqSchema.textContent = JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "@id": "https://indianadetoxguide.com/#faq",
-    url: "https://indianadetoxguide.com/#faq",
-    name: "Indiana detox frequently asked questions",
-    mainEntity: faqEntities,
-  });
-  document.head.append(faqSchema);
-}
-
 filters.forEach((filter) => {
   filter.addEventListener("click", () => {
     const tag = filter.dataset.filter;
